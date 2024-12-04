@@ -1,0 +1,66 @@
+org.linphone.app-navigation-ui-2.7.6-0 F:\.gradle\caches\8.9\transforms\0079c4a2b0c0ba0514cc328d8deeebb6\transformed\navigation-ui-2.7.6\res
+org.linphone.app-startup-runtime-1.1.1-1 F:\.gradle\caches\8.9\transforms\02b57c17cbd059c589dde448def34597\transformed\startup-runtime-1.1.1\res
+org.linphone.app-appcompat-1.6.1-2 F:\.gradle\caches\8.9\transforms\038d42b407c0f982034dcd71658c783e\transformed\appcompat-1.6.1\res
+org.linphone.app-window-1.2.0-3 F:\.gradle\caches\8.9\transforms\07b170e665aef1ff40a98ac75e85213b\transformed\window-1.2.0\res
+org.linphone.app-core-ktx-1.13.0-4 F:\.gradle\caches\8.9\transforms\0f7a5df65342360d449a9ae81f984326\transformed\core-ktx-1.13.0\res
+org.linphone.app-fragment-1.6.2-5 F:\.gradle\caches\8.9\transforms\102d1e5b197c6f4dc109e520ddd0a887\transformed\fragment-1.6.2\res
+org.linphone.app-slidingpanelayout-1.2.0-6 F:\.gradle\caches\8.9\transforms\151518fa5b2ecaa5be40799236204912\transformed\slidingpanelayout-1.2.0\res
+org.linphone.app-constraintlayout-2.1.4-7 F:\.gradle\caches\8.9\transforms\1675246098e5f7998c7d5382bead6dd1\transformed\constraintlayout-2.1.4\res
+org.linphone.app-databinding-runtime-8.1.4-8 F:\.gradle\caches\8.9\transforms\175a39a0da2a5a4cfc1aeae118c434f9\transformed\databinding-runtime-8.1.4\res
+org.linphone.app-gridlayout-1.0.0-9 F:\.gradle\caches\8.9\transforms\25523b81b5fc9d98eeabfb62012d81e2\transformed\gridlayout-1.0.0\res
+org.linphone.app-navigation-fragment-ktx-2.7.6-10 F:\.gradle\caches\8.9\transforms\2cbf21eaacb252e0fb090c9ec206a47d\transformed\navigation-fragment-ktx-2.7.6\res
+org.linphone.app-navigation-runtime-ktx-2.7.6-11 F:\.gradle\caches\8.9\transforms\306763e6668de383c48bdd6a4074f796\transformed\navigation-runtime-ktx-2.7.6\res
+org.linphone.app-material-1.10.0-12 F:\.gradle\caches\8.9\transforms\3fda32138d0369779eb3d839f57e90df\transformed\material-1.10.0\res
+org.linphone.app-lifecycle-runtime-release-13 F:\.gradle\caches\8.9\transforms\421c47ee7189f7c004e54fafdaffb87f\transformed\lifecycle-runtime-release\res
+org.linphone.app-navigation-fragment-2.7.6-14 F:\.gradle\caches\8.9\transforms\453e5cb6dd3fbcf9114e15ba2f6dc5be\transformed\navigation-fragment-2.7.6\res
+org.linphone.app-linphone-sdk-android-5.3.96-pre.2+690fc775-15 F:\.gradle\caches\8.9\transforms\49730f3b33ae5357c18f4c1d989c7e53\transformed\linphone-sdk-android-5.3.96-pre.2+690fc775\res
+org.linphone.app-viewpager2-1.1.0-beta02-16 F:\.gradle\caches\8.9\transforms\4e8a37cceaf52190f3004607551e93c1\transformed\viewpager2-1.1.0-beta02\res
+org.linphone.app-navigation-common-ktx-2.7.6-17 F:\.gradle\caches\8.9\transforms\5155b58f9aa80ee8bf679db9517ef6e0\transformed\navigation-common-ktx-2.7.6\res
+org.linphone.app-core-runtime-2.2.0-18 F:\.gradle\caches\8.9\transforms\51e3d50ce9317aa9f8e9e14ba93ca4b0\transformed\core-runtime-2.2.0\res
+org.linphone.app-security-crypto-ktx-1.1.0-alpha06-19 F:\.gradle\caches\8.9\transforms\57d782d4e49edc689d64950624b872f6\transformed\security-crypto-ktx-1.1.0-alpha06\res
+org.linphone.app-profileinstaller-1.3.1-20 F:\.gradle\caches\8.9\transforms\5970e3ab455e0c145fe91c6cac18782a\transformed\profileinstaller-1.3.1\res
+org.linphone.app-activity-ktx-1.9.3-21 F:\.gradle\caches\8.9\transforms\5ae0ea253a1ed235b91ac77ce4ad23e6\transformed\activity-ktx-1.9.3\res
+org.linphone.app-customview-poolingcontainer-1.0.0-22 F:\.gradle\caches\8.9\transforms\5c0ec0ffc3724586b3c970df3be07562\transformed\customview-poolingcontainer-1.0.0\res
+org.linphone.app-core-1.13.0-23 F:\.gradle\caches\8.9\transforms\5d09c606c980351bff5e51b073a2856f\transformed\core-1.13.0\res
+org.linphone.app-navigation-runtime-2.7.6-24 F:\.gradle\caches\8.9\transforms\5f1e6af493dfe67efb35fabbd422f734\transformed\navigation-runtime-2.7.6\res
+org.linphone.app-recyclerview-1.3.2-25 F:\.gradle\caches\8.9\transforms\63abe128599469ba145076b826724453\transformed\recyclerview-1.3.2\res
+org.linphone.app-security-crypto-1.1.0-alpha06-26 F:\.gradle\caches\8.9\transforms\700b653e04e2c9f7601f72419c8b924f\transformed\security-crypto-1.1.0-alpha06\res
+org.linphone.app-lifecycle-viewmodel-release-27 F:\.gradle\caches\8.9\transforms\75a1e7f6a31851be961610b4945ce168\transformed\lifecycle-viewmodel-release\res
+org.linphone.app-navigation-common-2.7.6-28 F:\.gradle\caches\8.9\transforms\814ab37c303a84bf96095ec512d365e9\transformed\navigation-common-2.7.6\res
+org.linphone.app-androidsvg-aar-1.4-29 F:\.gradle\caches\8.9\transforms\81a5df5df82732edd6867cbbdd435ba5\transformed\androidsvg-aar-1.4\res
+org.linphone.app-lifecycle-livedata-core-ktx-2.8.7-30 F:\.gradle\caches\8.9\transforms\8e739e3d63b1d52e564d6cf4c347f9b7\transformed\lifecycle-livedata-core-ktx-2.8.7\res
+org.linphone.app-drawerlayout-1.2.0-31 F:\.gradle\caches\8.9\transforms\9a977f6d593d04f7952c37047ac8cf0e\transformed\drawerlayout-1.2.0\res
+org.linphone.app-savedstate-ktx-1.2.1-32 F:\.gradle\caches\8.9\transforms\9b867b5c1841ca4d1a96de70ff7bce5b\transformed\savedstate-ktx-1.2.1\res
+org.linphone.app-lifecycle-service-2.8.7-33 F:\.gradle\caches\8.9\transforms\9f964d44e6392367f799fff754b10f77\transformed\lifecycle-service-2.8.7\res
+org.linphone.app-lifecycle-livedata-core-2.8.7-34 F:\.gradle\caches\8.9\transforms\a3ad60c3b79214655f134eea0aee95d4\transformed\lifecycle-livedata-core-2.8.7\res
+org.linphone.app-coil-base-2.5.0-35 F:\.gradle\caches\8.9\transforms\a96142994fdff8ebd68e63d41fcf0eaf\transformed\coil-base-2.5.0\res
+org.linphone.app-core-splashscreen-1.0.1-36 F:\.gradle\caches\8.9\transforms\a9e04539922607ce6166cbf2aaa769f1\transformed\core-splashscreen-1.0.1\res
+org.linphone.app-savedstate-1.2.1-37 F:\.gradle\caches\8.9\transforms\aaaa273931dbb7b9024a25f1a134bbcd\transformed\savedstate-1.2.1\res
+org.linphone.app-media-1.6.0-38 F:\.gradle\caches\8.9\transforms\af748ebcf25eedc76d85e5da904cd040\transformed\media-1.6.0\res
+org.linphone.app-core-1.0.0-39 F:\.gradle\caches\8.9\transforms\bdb99bf50a0acadb1a82c94657a546d3\transformed\core-1.0.0\res
+org.linphone.app-flexbox-3.0.0-40 F:\.gradle\caches\8.9\transforms\c0d6d0faf449c96ba1172b280fde2624\transformed\flexbox-3.0.0\res
+org.linphone.app-lifecycle-process-2.8.7-41 F:\.gradle\caches\8.9\transforms\c7800bc828bff828f2a0bbba358bf9a0\transformed\lifecycle-process-2.8.7\res
+org.linphone.app-activity-1.9.3-42 F:\.gradle\caches\8.9\transforms\c9b004ec712b9d019fbf44ac00ea5772\transformed\activity-1.9.3\res
+org.linphone.app-lifecycle-livedata-ktx-2.8.7-43 F:\.gradle\caches\8.9\transforms\ca1fed3c2fa757f3e6b3f28b5188011c\transformed\lifecycle-livedata-ktx-2.8.7\res
+org.linphone.app-emoji2-views-helper-1.4.0-44 F:\.gradle\caches\8.9\transforms\cf68b416b5cda1d643093b001ae8a7cf\transformed\emoji2-views-helper-1.4.0\res
+org.linphone.app-lifecycle-viewmodel-ktx-2.8.7-45 F:\.gradle\caches\8.9\transforms\d0aa719d474e733dd3a0651334e5da21\transformed\lifecycle-viewmodel-ktx-2.8.7\res
+org.linphone.app-transition-1.4.1-46 F:\.gradle\caches\8.9\transforms\d52ecabb99c25e585f7458e777839de7\transformed\transition-1.4.1\res
+org.linphone.app-annotation-experimental-1.4.0-47 F:\.gradle\caches\8.9\transforms\d8dcab94c2262cf0bea31c33bd7463e3\transformed\annotation-experimental-1.4.0\res
+org.linphone.app-appcompat-resources-1.6.1-48 F:\.gradle\caches\8.9\transforms\db2951e1c6da015b07aa8d024129b3ed\transformed\appcompat-resources-1.6.1\res
+org.linphone.app-lifecycle-livedata-2.8.7-49 F:\.gradle\caches\8.9\transforms\dd8125d0ed0b2e05f41c607c5dbcc956\transformed\lifecycle-livedata-2.8.7\res
+org.linphone.app-fragment-ktx-1.6.2-50 F:\.gradle\caches\8.9\transforms\e6f784a9067687e14f0f1d5b77c5debe\transformed\fragment-ktx-1.6.2\res
+org.linphone.app-lifecycle-runtime-ktx-release-51 F:\.gradle\caches\8.9\transforms\e774b7d0e901a7c8b11eb95c42980223\transformed\lifecycle-runtime-ktx-release\res
+org.linphone.app-lifecycle-viewmodel-savedstate-2.8.7-52 F:\.gradle\caches\8.9\transforms\e9992a6d32620d8979b9f2b79b12c01b\transformed\lifecycle-viewmodel-savedstate-2.8.7\res
+org.linphone.app-emoji2-emojipicker-1.4.0-53 F:\.gradle\caches\8.9\transforms\e9dafd0da6567961bfbf154a5f117d66\transformed\emoji2-emojipicker-1.4.0\res
+org.linphone.app-navigation-ui-ktx-2.7.6-54 F:\.gradle\caches\8.9\transforms\ed2393bbed1a225090bb3dac20051ccd\transformed\navigation-ui-ktx-2.7.6\res
+org.linphone.app-databinding-adapters-8.1.4-55 F:\.gradle\caches\8.9\transforms\f2fef6ebedd31ee9b0f6b359afed1b9a\transformed\databinding-adapters-8.1.4\res
+org.linphone.app-emoji2-1.4.0-56 F:\.gradle\caches\8.9\transforms\f6cef16af21d5649304ee495e73328df\transformed\emoji2-1.4.0\res
+org.linphone.app-coordinatorlayout-1.1.0-57 F:\.gradle\caches\8.9\transforms\f8462b63d0ca17759e229bcc7fee0bd1\transformed\coordinatorlayout-1.1.0\res
+org.linphone.app-cardview-1.0.0-58 F:\.gradle\caches\8.9\transforms\f8ee77782ad3726ee58702684474e98c\transformed\cardview-1.0.0\res
+org.linphone.app-pngs-59 F:\ArtPhone 1.0\app\build\generated\res\pngs\debug
+org.linphone.app-resValues-60 F:\ArtPhone 1.0\app\build\generated\res\resValues\debug
+org.linphone.app-packageDebugResources-61 F:\ArtPhone 1.0\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+org.linphone.app-packageDebugResources-62 F:\ArtPhone 1.0\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+org.linphone.app-merged_res-63 F:\ArtPhone 1.0\app\build\intermediates\merged_res\debug
+org.linphone.app-debug-64 F:\ArtPhone 1.0\app\src\debug\res
+org.linphone.app-main-65 F:\ArtPhone 1.0\app\src\main\res

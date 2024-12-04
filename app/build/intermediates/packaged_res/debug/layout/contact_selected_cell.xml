@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    
+                                          
+                 
+                       
+                                               
+                 
+                         
+                                                                     
+           
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|left"
+        android:layout_marginRight="5dp" android:tag="layout/contact_selected_cell_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:tag="binding_1"                                          
+            android:contentDescription="@string/content_description_remove_contact_from_selection"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="3dp"
+            android:gravity="center"
+            android:src="@drawable/chat_group_delete" />
+
+        <TextView
+            android:tag="binding_2"                            
+            style="@style/contact_name_list_cell_font"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:lines="1"
+            android:scrollHorizontally="true" />
+
+    </LinearLayout>
+
+         

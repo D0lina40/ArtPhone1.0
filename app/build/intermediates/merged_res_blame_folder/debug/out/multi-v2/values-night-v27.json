@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.linphone.app-mergeDebugResources-61:/values-night-v27/values-night-v27.xml",
+            "map": [
+                {
+                    "source": "F:\\ArtPhone 1.0\\app\\src\\main\\res\\values-night-v27\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "331"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    }
+                }
+            ]
+        }
+    ]
+}

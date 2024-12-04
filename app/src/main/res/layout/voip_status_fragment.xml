@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <import type="android.view.View"/>
+        <variable
+            name="refreshClickListener"
+            type="android.view.View.OnClickListener"/>
+        <variable
+            name="viewModel"
+            type="org.linphone.activities.voip.viewmodels.StatusViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/status_fragment_size"
+        android:background="#4CAF50"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/stats_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:contentDescription="@{viewModel.callQualityContentDescription}"
+            android:onClick="@{() -> viewModel.showCallStats()}"
+            android:padding="10dp"
+            android:src="@{viewModel.callQualityIcon, default=@drawable/call_quality_indicator_0}" />
+
+        <ImageView
+            android:id="@+id/status_led"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@id/stats_button"
+            android:adjustViewBounds="true"
+            android:background="@drawable/shape_call_numpad_background"
+            android:contentDescription="@{viewModel.registrationStatusText}"
+            android:onClick="@{refreshClickListener}"
+            android:padding="2dp"
+            android:src="@{viewModel.registrationStatusDrawable, default=@drawable/led_not_registered}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/status_led"
+            android:gravity="center_vertical"
+            android:onClick="@{refreshClickListener}"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:text="Подключено"
+            android:textColor="?attr/accentTextColor"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="@{viewModel.encryptionContentDescription}"
+            android:onClick="@{() -> viewModel.showZrtpDialog()}"
+            android:padding="10dp"
+            android:src="@{viewModel.encryptionIcon, default=@drawable/security_ko}"
+            android:visibility="@{viewModel.encryptionIconVisible ? View.VISIBLE : View.GONE, default=gone}" />
+
+    </RelativeLayout>
+
+</layout>

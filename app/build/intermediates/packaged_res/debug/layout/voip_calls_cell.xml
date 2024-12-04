@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    
+                                           
+                 
+                       
+                                                                
+           
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_color" android:tag="layout/voip_calls_cell_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/voip_call_list_size"
+            android:background="@color/voip_dark_gray"                                                                                               
+            android:orientation="horizontal"
+            android:layout_marginBottom="1dp" android:tag="binding_1">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp">
+
+                <ImageView
+                    android:tag="binding_2"                                                     
+                    android:layout_width="@dimen/contact_avatar_size"
+                    android:layout_height="@dimen/contact_avatar_size"
+                    android:contentDescription="@null"
+                                         
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/generated_avatar_bg"
+                    android:src="@drawable/voip_single_contact_avatar"/>
+
+                <ImageView
+                    android:visibility="gone"                                                                 
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@null"
+                    android:background="@drawable/generated_avatar_bg"
+                    android:src="@drawable/icon_multiple_contacts_avatar"  android:tag="binding_3"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@null"
+                    android:src="@drawable/voip_call_header_active_" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:tag="binding_4"                                         
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:tag="binding_5"                                                     
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    style="@style/call_list_active_name_font"
+                    android:text="Bilbo Baggins"                                                    />
+
+                <TextView
+                    android:visibility="gone"                                                                 
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    style="@style/call_list_active_name_font"
+                    android:tag="binding_6"                       />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    style="@style/call_list_active_sip_uri_font"
+                    android:text="bilbo.baggins@sip.linphone.org"                                      
+                    android:textIsSelectable="true" android:tag="binding_7"/>
+
+            </LinearLayout>
+            <!-- Data binding doesn't work on styles... :'( -->
+            <LinearLayout
+                android:visibility="gone"                                                     
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical" android:tag="binding_8">
+
+                <TextView
+                    android:tag="binding_9"                                                     
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    style="@style/call_list_name_font"
+                    android:text="Bilbo Baggins"                                                    />
+
+                <TextView
+                    android:visibility="gone"                                                                 
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    style="@style/call_list_name_font"
+                    android:tag="binding_10"                      />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    style="@style/call_list_sip_uri_font"
+                    android:text="bilbo.baggins@sip.linphone.org"                                       android:tag="binding_11"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/context_menu"
+                android:tag="binding_12"                                    
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/icon_calls_list_menu"
+                android:padding="5dp"
+                android:contentDescription="@string/content_description_call_context_menu"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+         

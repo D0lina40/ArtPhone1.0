@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="crashlytics_enabled">false</bool>
+    <string name="file_provider" translatable="false">org.linphone.debug.fileprovider</string>
+    <string name="gcm_defaultSenderId" translatable="false">none</string>
+    <string name="linphone_address_mime_type" translatable="false">vnd.android.cursor.item/vnd.org.linphone.provider.sip_address</string>
+    <string name="linphone_app_branch" translatable="false"/>
+    <string name="sync_account_type" translatable="false">org.linphone.sync</string>
+</resources>

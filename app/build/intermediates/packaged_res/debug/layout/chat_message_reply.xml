@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+                                          
+                 
+                                      
+                                                       
+                 
+                       
+                                                                            
+                 
+                                     
+                             
+           
+
+    <RelativeLayout
+        android:id="@+id/chat_message_reply"
+        android:background="@color/chat_bubble_incoming_color"                                                                                                                
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:tag="layout/chat_message_reply_0" 
+                                          xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:id="@+id/reply_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:layout_toLeftOf="@id/clear_reply">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/chat_message_reply_sender_font"
+                android:text="Tintin"                                                   android:tag="binding_1"/>
+
+            <HorizontalScrollView
+                android:tag="binding_2"                                                     
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:tag="binding_3"       
+                                                                                   />
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:tag="binding_4"                                                   
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:maxLines="5"
+                android:ellipsize="end"
+                style="@style/chat_message_reply_font"
+                android:text="Lorem Ipsum"                        />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/clear_reply"
+            android:tag="binding_5"                 
+            android:contentDescription="@string/content_description_cancel_reply"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:src="@drawable/field_clean" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?attr/dividerColor"
+            android:layout_below="@id/reply_layout"/>
+
+    </RelativeLayout>
+
+         

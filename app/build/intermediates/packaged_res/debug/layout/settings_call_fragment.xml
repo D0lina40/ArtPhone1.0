@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                             
+
+    
+                                          
+                                               
+                 
+                            
+                                                                                           
+                 
+                                      
+                                                                                 
+           
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:tag="layout/settings_call_fragment_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:linphone="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:id="@+id/top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/main_activity_top_bar_size"
+            android:layout_gravity="center_horizontal"
+            android:background="?attr/lightToolbarBackgroundColor"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/back"
+                android:tag="binding_1"                                                                      
+                android:contentDescription="@string/content_description_go_back"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="?attr/button_background_drawable"
+                android:padding="18dp"
+                android:src="@drawable/back" />
+
+            <TextView
+                style="@style/accent_colored_title_font"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:padding="15dp"
+                android:singleLine="true"
+                android:text="@string/settings_call_title"
+                android:textColor="#4CAF50" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:tag="binding_2"                                                                         />
+
+        </LinearLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/top_bar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" android:tag="binding_3">
+
+                <include
+                    layout="@layout/settings_widget_switch"
+                                                                                   
+                                                                                                  
+                                                                           
+                                                                   />
+
+                <include
+                    layout="@layout/settings_widget_list"
+                    android:visibility="gone"                                                                   
+                                                                             
+                                                                     
+                                                                       
+                                                                 />
+
+                <include
+                    layout="@layout/settings_widget_switch"
+                                                                           
+                                                                                  
+                                                                          
+                                                                                           />
+
+                <include
+                    layout="@layout/settings_widget_list"
+                                                                              
+                                                                       
+                                                                         
+                                                                   />
+
+                <include
+                    layout="@layout/settings_widget_switch"
+                                                                                        
+                                                                                
+                                                                        
+                                                                         />
+
+                <include
+                    layout="@layout/settings_widget_switch"
+                                                                                       
+                                                                                            
+                                                                                              
+                                                                              
+                                                                      />
+
+                <include
+                    layout="@layout/settings_widget_switch"
+                                                                           
+                                                                    
+                                                            />
+
+                <include
+                    layout="@layout/settings_widget_switch"
+                                                                                       
+                                                                                            
+                                                                              
+                                                                      
+                                                           />
+
+                <include
+                    layout="@layout/settings_widget_switch"
+                                                                                
+                                                                        
+                                                                />
+
+                <include
+                    layout="@layout/settings_widget_switch"
+                                                                                
+                                                                        
+                                                                />
+
+                <include
+                    layout="@layout/settings_widget_switch"
+                                                                                        
+                                                                                   
+                                                                           />
+
+                <include
+                    layout="@layout/settings_widget_switch"
+                                                                                    
+                                                                                
+                                                                        
+                    android:visibility="gone"/>
+
+                <include
+                    layout="@layout/settings_widget_switch"
+                                                                              
+                                                                                   
+                                                                      
+                                                              />
+
+                <include
+                    layout="@layout/settings_widget_switch"
+                                                                               
+                                                                       
+                                                               />
+
+                <include
+                    layout="@layout/settings_widget_text"
+                                                                                     
+                                                                                          
+                                                                            
+                                                                                   
+                                                                       
+                                                              
+                                                                                           />
+
+                <include
+                    layout="@layout/settings_widget_text"
+                                                                                    
+                                                                                         
+                                                                            
+                                                                                   
+                                                                       />
+
+                <include
+                    layout="@layout/settings_widget_text"
+                                                                                  
+                                                                         
+                                                                     
+                                                                             />
+
+                <include
+                    layout="@layout/settings_widget_switch"
+                                                                                                         
+                                                                                                     
+                                                                                             
+                                                                             />
+
+                <include
+                    layout="@layout/settings_widget_switch"
+                                                                                      
+                                                                             
+                                                                     />
+
+                <include
+                    layout="@layout/settings_widget_switch"
+                                                                                           
+                                                                                 
+                                                                         
+                                                                    />
+
+                <include
+                    layout="@layout/settings_widget_switch"
+                                                                                                
+                                                                                           
+                                                                                   
+                                                                      />
+
+                <include
+                    layout="@layout/settings_widget_basic"
+                                                                                            
+                                                                                                  />
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </RelativeLayout>
+
+         

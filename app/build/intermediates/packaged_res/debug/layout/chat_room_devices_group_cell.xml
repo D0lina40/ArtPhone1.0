@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+                                          
+                                                               
+                 
+                       
+                                                                                 
+           
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:tag="layout/chat_room_devices_group_cell_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <RelativeLayout
+            android:tag="binding_1"                                                                     
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical">
+
+            <RelativeLayout
+                android:id="@+id/avatar"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true">
+
+                <ImageView
+                    android:id="@+id/avatar_icon"
+                                         
+                    android:layout_width="@dimen/contact_avatar_size"
+                    android:layout_height="@dimen/contact_avatar_size"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/generated_avatar_bg"
+                    android:src="@drawable/voip_single_contact_avatar"
+                    android:contentDescription="@null"  android:tag="binding_2"/>
+
+                <ImageView
+                    android:layout_width="@dimen/contact_presence_badge_size"
+                    android:layout_height="@dimen/contact_presence_badge_size"
+                    android:layout_alignBottom="@id/avatar_icon"
+                    android:layout_marginStart="25dp"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/led_background"
+                    android:padding="@dimen/contact_presence_badge_padding"
+                    android:tag="binding_3"                  
+                    android:visibility="gone"                                                                                           
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:tag="binding_4"                                             
+                    android:src="@drawable/security_alert_indicator"                                    />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@id/right"
+                android:layout_toRightOf="@id/avatar"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:orientation="vertical">
+
+                <org.linphone.views.MarqueeTextView
+                    android:tag="binding_5"                                
+                    style="@style/contact_name_list_cell_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true" />
+
+                <org.linphone.views.MarqueeTextView
+                    android:tag="binding_6"      
+                    style="@style/sip_uri_small_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginRight="10dp">
+
+                <ImageView
+                    android:visibility="visible"                                                                
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/content_description_toggle_participant_devices_list"
+                    android:src="@drawable/chevron_list_open"                                                                                          android:tag="binding_7"/>
+
+                <ImageView
+                    android:visibility="gone"                                                                
+                    android:src="@drawable/security_alert_indicator"                                   
+                    android:tag="binding_8"                                             
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?attr/dividerColor" />
+
+        <LinearLayout
+            android:visibility="gone"                                                                                          
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:tag="binding_9"      
+                                                                />
+
+    </LinearLayout>
+
+         

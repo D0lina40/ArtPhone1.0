@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+                                          
+                                               
+                 
+                            
+                                                                             
+           
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:clickable="true" android:tag="layout/dialog_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="15dp"
+            android:adjustViewBounds="true"
+            android:tag="binding_1"                        
+            android:src="@drawable/security_alert_indicator"                                   
+                                                                                  />
+
+        <TextView
+            style="@style/dialog_title_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:text="Title"                            
+            android:tag="binding_2"                                                />
+
+        <TextView
+            style="@style/dialog_message_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:text="Message"                               android:tag="binding_3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:gravity="center"
+            android:text="Telegram: @Dolina_40"
+            android:textColor="#4CAF50"
+            android:textColorLink="#4CAF50"
+            android:textSize="16sp"
+            android:tag="binding_4"                                                                   />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/settings_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/settings_margin"
+            android:tag="binding_5"                  
+            android:textColorHint="@color/white_color"
+                                                                                     
+            app:helperTextTextColor="@color/white_color"
+                                                          
+                                                                              >
+
+            <org.linphone.views.SettingTextInputEditText
+                android:id="@+id/settings_input"
+                android:tag="binding_6"              
+                android:imeOptions="actionDone"
+                                                                                                         
+                android:maxLines="1"
+                android:background="@color/transparent_color"
+                android:textColor="@color/white_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:tag="binding_7"                                                       >
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="binding_8"                      
+                android:textColorHighlight="#4CAF50"
+                android:textColorHint="#4CAF50"
+                android:textColorLink="#4CAF50"
+                app:useMaterialThemeColors="false" />
+
+            <TextView
+                style="@style/dialog_message_font"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/dialog_do_not_ask_again" />
+
+        </LinearLayout>
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            app:flexWrap="nowrap"
+            app:alignItems="center"
+            app:justifyContent="center">
+
+            <TextView
+                android:tag="binding_9"                               
+                style="@style/dialog_cancel_button_font"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/resizable_assistant_button"
+                android:ellipsize="end"
+                android:padding="10dp"
+                android:text="@string/dialog_cancel"                                                           
+                                                                                        />
+
+            <TextView
+                android:tag="binding_10"                              
+                style="@style/dialog_action_button_font"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/resizable_assistant_button"
+                android:backgroundTint="@color/red_color"
+                android:ellipsize="end"
+                android:padding="10dp"
+                android:text="@string/dialog_delete"                                                           
+                                                                                        />
+
+            <TextView
+                android:tag="binding_11"                          
+                style="@style/dialog_action_button_font"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/resizable_assistant_button"
+                android:backgroundTint="@color/green_color"
+                android:ellipsize="end"
+                android:padding="10dp"
+                android:text="OK"                              
+                                                                                    />
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+    </LinearLayout>
+
+         

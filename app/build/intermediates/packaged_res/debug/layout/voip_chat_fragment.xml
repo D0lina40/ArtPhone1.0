@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                               
+
+    
+                                          
+                 
+                                      
+                                                      
+                 
+                                          
+                                                      
+                 
+                                             
+                                                      
+                 
+                            
+                                                                                    
+                 
+                                       
+                                                                                              
+           
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/voip_chat_fragment_0" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:id="@+id/top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/voip_top_bar_size"
+            android:background="?attr/voipToolbarBackgroundColor"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:gravity="start|center_vertical"
+                android:layout_marginStart="20dp"
+                android:orientation="vertical">
+
+                <org.linphone.views.MarqueeTextView
+                    android:tag="binding_1"                                                                                             
+                    style="@style/toolbar_small_title_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true" />
+
+                <org.linphone.views.MarqueeTextView
+                    android:tag="binding_2"                 
+                                                                                                 
+                    style="@style/toolbar_small_title_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:tag="binding_3"                        
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:src="@drawable/icon_call_chat_rooms"
+                android:contentDescription="@string/content_description_go_to_chat_rooms_list"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <ImageView
+                android:tag="binding_4"                 
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:padding="10dp"
+                android:src="@drawable/icon_cancel"
+                android:contentDescription="@string/cancel"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/top_bar"
+            android:background="?attr/voipBackgroundBWColor" />
+
+        <LinearLayout
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="?attr/backgroundColor"
+            android:gravity="center_vertical"
+            android:orientation="vertical" android:tag="binding_5">
+
+            <include
+                layout="@layout/chat_message_reply"
+                android:visibility="gone"                                                                            
+                                                                              
+                                                                                      />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/backgroundColor2"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:tag="binding_6"                          
+                                                                         />
+
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="binding_7"                                                           
+                android:gravity="center_vertical"
+                android:background="?attr/lightToolbarBackgroundColor"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/content_description_attach_file"
+                    android:tag="binding_8"                                    
+                                                                
+                    android:padding="10dp"
+                    android:src="@drawable/chat_file" />
+
+                <EditText
+                    android:id="@+id/message"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/resizable_text_field"
+                    android:tag="binding_9"                                                                                                               
+                    android:imeOptions="flagNoExtractUi"
+                    android:inputType="textShortMessage|textMultiLine|textAutoComplete|textAutoCorrect|textCapSentences"
+                    android:maxLines="6"
+                    android:padding="5dp"
+                                                                      
+                    android:textColor="@color/black_color"
+                    android:textCursorDrawable="@null" />
+
+                <ImageView
+                    android:id="@+id/send_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/content_description_send_message"
+                    android:tag="binding_10"                                    
+                                                                                 
+                    android:padding="10dp"
+                    android:src="@drawable/chat_send_message" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/remote_composing"
+            android:text="@string/chat_remote_is_composing"                                    
+            android:tag="binding_11"                                                           
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/footer"
+            android:layout_marginLeft="5dp"
+            style="@style/standard_small_text_font" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/chat_messages_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/remote_composing"
+            android:layout_below="@+id/top_bar"
+            android:cacheColorHint="@color/transparent_color"
+            android:choiceMode="multipleChoice"
+            android:divider="@android:color/transparent"
+            android:listSelector="@color/transparent_color"
+            android:transcriptMode="normal" />
+
+        <ImageView
+            android:src="@drawable/security_alert_indicator"                                        
+            android:tag="binding_12"                                                      
+                                                                                     
+            android:adjustViewBounds="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/top_bar"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp" />
+
+    </RelativeLayout>
+
+         

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    
+                                          
+                 
+                                    
+                                                      
+                 
+                                       
+                                                      
+                 
+                            
+                                                                             
+           
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/status_fragment_size"
+        android:background="@color/primary_color"
+        android:orientation="horizontal" android:tag="layout/status_fragment_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:id="@+id/menu_button"
+            android:tag="binding_1"               
+            android:contentDescription="@string/content_description_toggle_side_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:src="@drawable/menu" />
+
+        <ImageView
+            android:id="@+id/status_led"
+            android:src="@drawable/led_not_registered"                                                 
+            android:tag="binding_2"                  
+                                                                            
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/menu_button"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:text="@string/status_not_connected"                                             
+            android:tag="binding_3"                  
+            android:textColor="?attr/accentTextColor"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/status_led"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/content_description_voice_mail"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/voice_mail_count"
+            android:gravity="center_vertical"
+            android:src="@drawable/voicemail"
+            android:visibility="gone"                                                                      android:tag="binding_4"/>
+
+        <TextView
+            android:id="@+id/voice_mail_count"
+            android:tag="binding_5"                              
+            android:visibility="gone"                                                                    
+            android:textColor="?attr/secondaryTextColor"
+            android:textSize="21sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp" />
+
+    </RelativeLayout>
+
+         

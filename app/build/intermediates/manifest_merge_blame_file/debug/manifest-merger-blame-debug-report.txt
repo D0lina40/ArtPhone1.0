@@ -1,0 +1,764 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.linphone.debug"
+4    android:versionCode="52005"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- To be able to display contacts list & match calling/called numbers -->
+12    <uses-permission android:name="android.permission.READ_CONTACTS" />
+12-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:5:1-68
+12-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:5:18-65
+13    <!-- For in-app contact edition -->
+14    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+14-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:7:1-69
+14-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:7:18-66
+15
+16    <!-- Helps filling phone number and country code in assistant -->
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:10:1-71
+17-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:10:18-68
+18
+19    <!-- Needed for auto start at boot and to ensure the service won't be killed by OS while in call -->
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+20-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:13:1-77
+20-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:13:18-74
+21
+22    <!-- Starting Android 13 we need to ask notification permission -->
+23    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+23-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:16:1-73
+23-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:16:18-70
+24
+25    <!-- Needed for full screen intent in incoming call notifications -->
+26    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+26-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:19:1-77
+26-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:19:18-74
+27    <!-- To vibrate when pressing DTMF keys on numpad & incoming calls -->
+28    <uses-permission android:name="android.permission.VIBRATE" />
+28-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:21:1-62
+28-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:21:18-59
+29
+30    <!-- Needed to attach file(s) in chat room fragment -->
+31    <uses-permission
+31-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:24:1-26:34
+32        android:name="android.permission.READ_EXTERNAL_STORAGE"
+32-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:25:5-60
+33        android:maxSdkVersion="32" />
+33-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:26:5-31
+34    <!-- Starting Android 13 you need those 3 permissions instead (https://developer.android.com/about/versions/13/behavior-changes-13) -->
+35    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+35-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:28:1-72
+35-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:28:18-69
+36    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+36-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:29:1-71
+36-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:29:18-68
+37    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+37-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:30:1-71
+37-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:30:18-68
+38
+39    <!-- Needed to shared downloaded files if setting is on -->
+40    <uses-permission
+40-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:33:1-35:34
+41        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+41-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:34:5-61
+42        android:maxSdkVersion="28" />
+42-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:35:5-31
+43
+44    <!-- Both permissions below are for contacts sync account, needed to store presence in native contact if enabled -->
+45    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+45-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:38:1-76
+45-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:38:18-73
+46    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+46-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:39:1-67
+46-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:39:18-64
+47
+48    <!-- Needed for Telecom Manager -->
+49    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+49-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:42:1-71
+49-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:42:18-68
+50    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+50-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:43:1-73
+50-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:43:18-70
+51
+52    <!-- Needed for overlay -->
+53    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+53-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:46:1-74
+53-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:46:18-71
+54
+55    <!-- Needed to check current Do not disturb policy -->
+56    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+56-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:49:1-81
+56-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:49:18-78
+57
+58    <!--
+59     Needed for foreground service
+60    (https://developer.android.com/guide/components/foreground-services)
+61    -->
+62    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+62-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:53:1-73
+62-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:53:18-70
+63    <!--
+64     Needed for Android 14
+65    https://developer.android.com/about/versions/14/behavior-changes-14#fgs-types
+66    -->
+67    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CAMERA" />
+67-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:56:1-80
+67-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:56:18-77
+68    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+68-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:57:1-84
+68-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:57:18-81
+69    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_PHONE_CALL" />
+69-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:58:1-84
+69-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:58:18-81
+70    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+70-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:59:1-83
+70-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:59:18-80
+71
+72    <permission
+72-->[androidx.core:core:1.13.0] F:\.gradle\caches\8.9\transforms\5d09c606c980351bff5e51b073a2856f\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+73        android:name="org.linphone.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+73-->[androidx.core:core:1.13.0] F:\.gradle\caches\8.9\transforms\5d09c606c980351bff5e51b073a2856f\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+74        android:protectionLevel="signature" />
+74-->[androidx.core:core:1.13.0] F:\.gradle\caches\8.9\transforms\5d09c606c980351bff5e51b073a2856f\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+75
+76    <uses-permission android:name="org.linphone.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- SDK required permissions -->
+76-->[androidx.core:core:1.13.0] F:\.gradle\caches\8.9\transforms\5d09c606c980351bff5e51b073a2856f\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+76-->[androidx.core:core:1.13.0] F:\.gradle\caches\8.9\transforms\5d09c606c980351bff5e51b073a2856f\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+77    <uses-permission android:name="android.permission.INTERNET" />
+77-->[org.linphone:linphone-sdk-android:5.3.96-pre.2+690fc775] F:\.gradle\caches\8.9\transforms\49730f3b33ae5357c18f4c1d989c7e53\transformed\linphone-sdk-android-5.3.96-pre.2+690fc775\AndroidManifest.xml:8:5-67
+77-->[org.linphone:linphone-sdk-android:5.3.96-pre.2+690fc775] F:\.gradle\caches\8.9\transforms\49730f3b33ae5357c18f4c1d989c7e53\transformed\linphone-sdk-android-5.3.96-pre.2+690fc775\AndroidManifest.xml:8:22-64
+78    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+78-->[org.linphone:linphone-sdk-android:5.3.96-pre.2+690fc775] F:\.gradle\caches\8.9\transforms\49730f3b33ae5357c18f4c1d989c7e53\transformed\linphone-sdk-android-5.3.96-pre.2+690fc775\AndroidManifest.xml:9:5-71
+78-->[org.linphone:linphone-sdk-android:5.3.96-pre.2+690fc775] F:\.gradle\caches\8.9\transforms\49730f3b33ae5357c18f4c1d989c7e53\transformed\linphone-sdk-android-5.3.96-pre.2+690fc775\AndroidManifest.xml:9:22-68
+79    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+79-->[org.linphone:linphone-sdk-android:5.3.96-pre.2+690fc775] F:\.gradle\caches\8.9\transforms\49730f3b33ae5357c18f4c1d989c7e53\transformed\linphone-sdk-android-5.3.96-pre.2+690fc775\AndroidManifest.xml:10:5-79
+79-->[org.linphone:linphone-sdk-android:5.3.96-pre.2+690fc775] F:\.gradle\caches\8.9\transforms\49730f3b33ae5357c18f4c1d989c7e53\transformed\linphone-sdk-android-5.3.96-pre.2+690fc775\AndroidManifest.xml:10:22-76
+80    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Needed to be able to use WifiManager.MulticastLock -->
+80-->[org.linphone:linphone-sdk-android:5.3.96-pre.2+690fc775] F:\.gradle\caches\8.9\transforms\49730f3b33ae5357c18f4c1d989c7e53\transformed\linphone-sdk-android-5.3.96-pre.2+690fc775\AndroidManifest.xml:11:5-68
+80-->[org.linphone:linphone-sdk-android:5.3.96-pre.2+690fc775] F:\.gradle\caches\8.9\transforms\49730f3b33ae5357c18f4c1d989c7e53\transformed\linphone-sdk-android-5.3.96-pre.2+690fc775\AndroidManifest.xml:11:22-65
+81    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+81-->[org.linphone:linphone-sdk-android:5.3.96-pre.2+690fc775] F:\.gradle\caches\8.9\transforms\49730f3b33ae5357c18f4c1d989c7e53\transformed\linphone-sdk-android-5.3.96-pre.2+690fc775\AndroidManifest.xml:13:5-86
+81-->[org.linphone:linphone-sdk-android:5.3.96-pre.2+690fc775] F:\.gradle\caches\8.9\transforms\49730f3b33ae5357c18f4c1d989c7e53\transformed\linphone-sdk-android-5.3.96-pre.2+690fc775\AndroidManifest.xml:13:22-83
+82    <uses-permission android:name="android.permission.CAMERA" /> <!-- Needed to allow Linphone to install on tablets, since android.permission.CAMERA implies android.hardware.camera and android.hardware.camera.autofocus are required -->
+82-->[org.linphone:linphone-sdk-android:5.3.96-pre.2+690fc775] F:\.gradle\caches\8.9\transforms\49730f3b33ae5357c18f4c1d989c7e53\transformed\linphone-sdk-android-5.3.96-pre.2+690fc775\AndroidManifest.xml:14:5-65
+82-->[org.linphone:linphone-sdk-android:5.3.96-pre.2+690fc775] F:\.gradle\caches\8.9\transforms\49730f3b33ae5357c18f4c1d989c7e53\transformed\linphone-sdk-android-5.3.96-pre.2+690fc775\AndroidManifest.xml:14:22-62
+83    <uses-feature
+83-->[org.linphone:linphone-sdk-android:5.3.96-pre.2+690fc775] F:\.gradle\caches\8.9\transforms\49730f3b33ae5357c18f4c1d989c7e53\transformed\linphone-sdk-android-5.3.96-pre.2+690fc775\AndroidManifest.xml:16:5-18:36
+84        android:name="android.hardware.camera"
+84-->[org.linphone:linphone-sdk-android:5.3.96-pre.2+690fc775] F:\.gradle\caches\8.9\transforms\49730f3b33ae5357c18f4c1d989c7e53\transformed\linphone-sdk-android-5.3.96-pre.2+690fc775\AndroidManifest.xml:17:9-47
+85        android:required="false" /> <!-- Needed for bluetooth -->
+85-->[org.linphone:linphone-sdk-android:5.3.96-pre.2+690fc775] F:\.gradle\caches\8.9\transforms\49730f3b33ae5357c18f4c1d989c7e53\transformed\linphone-sdk-android-5.3.96-pre.2+690fc775\AndroidManifest.xml:18:9-33
+86    <uses-permission android:name="android.permission.BLUETOOTH" /> <!-- Needed for bluetooth headset -->
+86-->[org.linphone:linphone-sdk-android:5.3.96-pre.2+690fc775] F:\.gradle\caches\8.9\transforms\49730f3b33ae5357c18f4c1d989c7e53\transformed\linphone-sdk-android-5.3.96-pre.2+690fc775\AndroidManifest.xml:20:5-68
+86-->[org.linphone:linphone-sdk-android:5.3.96-pre.2+690fc775] F:\.gradle\caches\8.9\transforms\49730f3b33ae5357c18f4c1d989c7e53\transformed\linphone-sdk-android-5.3.96-pre.2+690fc775\AndroidManifest.xml:20:22-65
+87    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" /> <!-- Required to be able to monitor WiFi signal strength -->
+87-->[org.linphone:linphone-sdk-android:5.3.96-pre.2+690fc775] F:\.gradle\caches\8.9\transforms\49730f3b33ae5357c18f4c1d989c7e53\transformed\linphone-sdk-android-5.3.96-pre.2+690fc775\AndroidManifest.xml:22:5-80
+87-->[org.linphone:linphone-sdk-android:5.3.96-pre.2+690fc775] F:\.gradle\caches\8.9\transforms\49730f3b33ae5357c18f4c1d989c7e53\transformed\linphone-sdk-android-5.3.96-pre.2+690fc775\AndroidManifest.xml:22:22-77
+88    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+88-->[org.linphone:linphone-sdk-android:5.3.96-pre.2+690fc775] F:\.gradle\caches\8.9\transforms\49730f3b33ae5357c18f4c1d989c7e53\transformed\linphone-sdk-android-5.3.96-pre.2+690fc775\AndroidManifest.xml:28:5-76
+88-->[org.linphone:linphone-sdk-android:5.3.96-pre.2+690fc775] F:\.gradle\caches\8.9\transforms\49730f3b33ae5357c18f4c1d989c7e53\transformed\linphone-sdk-android-5.3.96-pre.2+690fc775\AndroidManifest.xml:28:22-73
+89
+90    <application
+91        android:name="org.linphone.LinphoneApplication"
+91-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:62:5-40
+92        android:allowBackup="false"
+92-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:63:5-32
+93        android:allowNativeHeapPointerTagging="false"
+93-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:70:5-50
+94        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+94-->[androidx.core:core:1.13.0] F:\.gradle\caches\8.9\transforms\5d09c606c980351bff5e51b073a2856f\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+95        android:debuggable="true"
+96        android:enableOnBackInvokedCallback="true"
+96-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:64:5-47
+97        android:extractNativeLibs="false"
+98        android:icon="@mipmap/ic_launcher"
+98-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:65:5-39
+99        android:label="@string/app_name_debug"
+99-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:66:5-32
+100        android:localeConfig="@xml/locales_config"
+100-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:67:5-47
+101        android:roundIcon="@mipmap/ic_launcher_round"
+101-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:68:5-50
+102        android:theme="@style/AppTheme" >
+102-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:69:5-36
+103        <meta-data
+103-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:72:5-74:55
+104            android:name="com.google.android.gms.car.application"
+104-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:73:9-62
+105            android:resource="@xml/automotive_app_desc" />
+105-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:74:9-52
+106
+107        <activity
+107-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:76:5-158:16
+108            android:name="org.linphone.activities.main.MainActivity"
+108-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:77:9-53
+109            android:exported="true"
+109-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:78:9-32
+110            android:launchMode="singleTask"
+110-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:79:9-40
+111            android:screenOrientation="portrait"
+111-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:82:9-45
+112            android:theme="@style/AppSplashScreenTheme"
+112-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:81:9-52
+113            android:windowSoftInputMode="adjustResize" >
+113-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:80:9-51
+114            <intent-filter>
+114-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:87:9-90:25
+115                <action android:name="android.intent.action.MAIN" />
+115-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:88:13-65
+115-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:88:21-62
+116
+117                <category android:name="android.intent.category.LAUNCHER" />
+117-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:89:13-73
+117-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:89:23-70
+118            </intent-filter>
+119
+120            <meta-data
+120-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:92:9-94:49
+121                android:name="android.app.shortcuts"
+121-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:93:13-49
+122                android:resource="@xml/shortcuts" />
+122-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:94:13-46
+123
+124            <intent-filter>
+124-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:96:9-98:25
+125                <action android:name="android.intent.action.VIEW_LOCUS" />
+125-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:97:13-71
+125-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:97:21-68
+126            </intent-filter>
+127            <intent-filter>
+127-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:100:9-109:25
+128                <action android:name="android.intent.action.SEND" />
+128-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:101:13-65
+128-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:101:21-62
+129
+130                <category android:name="android.intent.category.DEFAULT" />
+130-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:102:13-72
+130-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:102:23-69
+131
+132                <data android:mimeType="text/*" />
+132-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+132-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:104:19-44
+133                <data android:mimeType="image/*" />
+133-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+133-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:104:19-44
+134                <data android:mimeType="audio/*" />
+134-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+134-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:104:19-44
+135                <data android:mimeType="video/*" />
+135-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+135-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:104:19-44
+136                <data android:mimeType="application/*" />
+136-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+136-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:104:19-44
+137            </intent-filter>
+138            <intent-filter>
+138-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:111:9-119:25
+139                <action android:name="android.intent.action.SEND_MULTIPLE" />
+139-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:112:13-74
+139-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:112:21-71
+140
+141                <category android:name="android.intent.category.DEFAULT" />
+141-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:102:13-72
+141-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:102:23-69
+142
+143                <data android:mimeType="image/*" />
+143-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+143-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:104:19-44
+144                <data android:mimeType="audio/*" />
+144-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+144-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:104:19-44
+145                <data android:mimeType="video/*" />
+145-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+145-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:104:19-44
+146                <data android:mimeType="application/*" />
+146-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+146-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:104:19-44
+147            </intent-filter>
+148            <intent-filter>
+148-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:121:9-128:25
+149                <action android:name="android.intent.action.VIEW" />
+149-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:122:13-65
+149-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:122:21-62
+150
+151                <category android:name="android.intent.category.BROWSABLE" />
+151-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:124:13-74
+151-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:124:23-71
+152                <category android:name="android.intent.category.DEFAULT" />
+152-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:102:13-72
+152-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:102:23-69
+153
+154                <data android:mimeType="vnd.android.cursor.item/vnd.org.linphone.provider.sip_address" />
+154-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+154-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:104:19-44
+155            </intent-filter>
+156            <intent-filter>
+156-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:130:9-145:25
+157                <action android:name="android.intent.action.VIEW" />
+157-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:122:13-65
+157-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:122:21-62
+158                <action android:name="android.intent.action.DIAL" />
+158-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:132:13-65
+158-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:132:21-62
+159                <action android:name="android.intent.action.CALL" />
+159-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:133:13-65
+159-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:133:21-62
+160                <action android:name="android.intent.action.CALL_BUTTON" />
+160-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:134:13-72
+160-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:134:21-69
+161
+162                <category android:name="android.intent.category.DEFAULT" />
+162-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:102:13-72
+162-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:102:23-69
+163                <category android:name="android.intent.category.BROWSABLE" />
+163-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:124:13-74
+163-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:124:23-71
+164
+165                <data android:scheme="tel" />
+165-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+165-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:139:19-39
+166                <data android:scheme="sip" />
+166-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+166-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:139:19-39
+167                <data android:scheme="sips" />
+167-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+167-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:139:19-39
+168                <data android:scheme="linphone" />
+168-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+168-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:139:19-39
+169                <data android:scheme="sip-linphone" />
+169-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+169-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:139:19-39
+170                <data android:scheme="linphone-config" />
+170-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+170-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:139:19-39
+171            </intent-filter>
+172            <intent-filter>
+172-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:147:9-157:25
+173                <action android:name="android.intent.action.SEND" />
+173-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:101:13-65
+173-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:101:21-62
+174                <action android:name="android.intent.action.SENDTO" />
+174-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:149:13-67
+174-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:149:21-64
+175
+176                <category android:name="android.intent.category.DEFAULT" />
+176-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:102:13-72
+176-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:102:23-69
+177
+178                <data android:scheme="sms" />
+178-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+178-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:139:19-39
+179                <data android:scheme="smsto" />
+179-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+179-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:139:19-39
+180                <data android:scheme="mms" />
+180-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+180-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:139:19-39
+181                <data android:scheme="mmsto" />
+181-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+181-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:139:19-39
+182            </intent-filter>
+183            <intent-filter android:autoVerify="true" >
+183-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+183-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+184                <action android:name="android.intent.action.VIEW" />
+184-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:122:13-65
+184-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:122:21-62
+185
+186                <category android:name="android.intent.category.DEFAULT" />
+186-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:102:13-72
+186-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:102:23-69
+187                <category android:name="android.intent.category.BROWSABLE" />
+187-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:124:13-74
+187-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:124:23-71
+188
+189                <data android:scheme="linphone-android" />
+189-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+189-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:139:19-39
+190                <data android:host="chat-room" />
+190-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+190-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+191                <data android:pathPattern="/.*/.*" />
+191-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+191-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+192            </intent-filter>
+193            <intent-filter android:autoVerify="true" >
+193-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:54:9-56:41
+193-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:54:9-56:41
+194                <action android:name="android.intent.action.VIEW" />
+194-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:122:13-65
+194-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:122:21-62
+195
+196                <category android:name="android.intent.category.DEFAULT" />
+196-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:102:13-72
+196-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:102:23-69
+197                <category android:name="android.intent.category.BROWSABLE" />
+197-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:124:13-74
+197-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:124:23-71
+198
+199                <data android:scheme="linphone-android" />
+199-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+199-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:139:19-39
+200                <data android:host="contact" />
+200-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+200-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+201                <data android:pathPrefix="/view/" />
+201-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+201-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:54:9-56:41
+202            </intent-filter>
+203            <intent-filter android:autoVerify="true" >
+203-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:57:9-59:41
+203-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:57:9-59:41
+204                <action android:name="android.intent.action.VIEW" />
+204-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:122:13-65
+204-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:122:21-62
+205
+206                <category android:name="android.intent.category.DEFAULT" />
+206-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:102:13-72
+206-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:102:23-69
+207                <category android:name="android.intent.category.BROWSABLE" />
+207-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:124:13-74
+207-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:124:23-71
+208
+209                <data android:scheme="linphone-android" />
+209-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+209-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:139:19-39
+210                <data android:host="contact" />
+210-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+210-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+211                <data android:pathPrefix="/view-friend/" />
+211-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+211-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:54:9-56:41
+212            </intent-filter>
+213            <intent-filter android:autoVerify="true" >
+213-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:60:9-62:41
+213-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:60:9-62:41
+214                <action android:name="android.intent.action.VIEW" />
+214-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:122:13-65
+214-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:122:21-62
+215
+216                <category android:name="android.intent.category.DEFAULT" />
+216-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:102:13-72
+216-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:102:23-69
+217                <category android:name="android.intent.category.BROWSABLE" />
+217-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:124:13-74
+217-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:124:23-71
+218
+219                <data android:scheme="linphone-android" />
+219-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+219-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:139:19-39
+220                <data android:host="contact" />
+220-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+220-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+221                <data android:pathPrefix="/new/" />
+221-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+221-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:54:9-56:41
+222            </intent-filter>
+223            <intent-filter android:autoVerify="true" >
+223-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:128:9-130:41
+223-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:128:9-130:41
+224                <action android:name="android.intent.action.VIEW" />
+224-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:122:13-65
+224-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:122:21-62
+225
+226                <category android:name="android.intent.category.DEFAULT" />
+226-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:102:13-72
+226-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:102:23-69
+227                <category android:name="android.intent.category.BROWSABLE" />
+227-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:124:13-74
+227-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:124:23-71
+228
+229                <data android:scheme="linphone-android" />
+229-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+229-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:139:19-39
+230                <data android:host="settings" />
+230-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+230-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+231                <data android:pathPrefix="/" />
+231-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:33:9-35:41
+231-->[main_nav_graph] F:\ArtPhone 1.0\app\src\main\res\navigation\main_nav_graph.xml:54:9-56:41
+232            </intent-filter>
+233        </activity>
+234        <activity
+234-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:160:5-164:41
+235            android:name="org.linphone.activities.assistant.AssistantActivity"
+235-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:161:9-63
+236            android:screenOrientation="portrait"
+236-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:163:9-45
+237            android:windowSoftInputMode="adjustResize" />
+237-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:162:9-51
+238        <activity
+238-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:166:5-174:41
+239            android:name="org.linphone.activities.voip.CallActivity"
+239-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:167:9-53
+240            android:launchMode="singleTask"
+240-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:168:9-40
+241            android:resizeableActivity="true"
+241-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:171:9-42
+242            android:screenOrientation="portrait"
+242-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:173:9-45
+243            android:showWhenLocked="true"
+243-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:170:9-38
+244            android:supportsPictureInPicture="true"
+244-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:172:9-48
+245            android:turnScreenOn="true" />
+245-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:169:9-36
+246        <activity
+246-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:177:5-183:41
+247            android:name="org.linphone.activities.chat_bubble.ChatBubbleActivity"
+247-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:178:9-66
+248            android:allowEmbedded="true"
+248-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:179:9-37
+249            android:documentLaunchMode="always"
+249-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:180:9-44
+250            android:resizeableActivity="true"
+250-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:181:9-42
+251            android:screenOrientation="portrait" />
+251-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:182:9-45
+252
+253        <!-- Services -->
+254
+255        <service
+255-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:187:5-192:44
+256            android:name="org.linphone.core.CoreService"
+256-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:188:9-41
+257            android:exported="false"
+257-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:189:9-33
+258            android:foregroundServiceType="phoneCall|camera|microphone|dataSync"
+258-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:190:9-77
+259            android:label="@string/app_name"
+259-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:192:9-41
+260            android:stopWithTask="false" />
+260-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:191:9-37
+261        <service
+261-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:194:5-199:44
+262            android:name="org.linphone.core.tools.service.PushService"
+262-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:195:9-67
+263            android:exported="false"
+263-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:196:9-33
+264            android:foregroundServiceType="dataSync"
+264-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:197:9-49
+265            android:label="@string/app_name"
+265-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:199:9-41
+266            android:stopWithTask="false" />
+266-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:198:9-37
+267        <service
+268            android:name="org.linphone.core.tools.firebase.FirebaseMessaging"
+268-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:202:9-74
+269            android:enabled="false"
+269-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:203:9-52
+270            android:exported="false" >
+270-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:204:9-33
+271            <intent-filter>
+271-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:205:9-207:25
+272                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+272-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:206:13-74
+272-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:206:21-71
+273            </intent-filter>
+274        </service>
+275        <service
+275-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:210:5-223:15
+276            android:name="org.linphone.contact.DummySyncService"
+276-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:211:9-49
+277            android:exported="true" >
+277-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:212:9-32
+278            <intent-filter>
+278-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:213:9-215:25
+279                <action android:name="android.content.SyncAdapter" />
+279-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:214:13-66
+279-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:214:21-63
+280            </intent-filter>
+281
+282            <meta-data
+282-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:217:9-219:52
+283                android:name="android.content.SyncAdapter"
+283-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:218:13-55
+284                android:resource="@xml/sync_adapter" />
+284-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:219:13-49
+285            <meta-data
+285-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:220:9-222:48
+286                android:name="android.provider.CONTACTS_STRUCTURE"
+286-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:221:13-63
+287                android:resource="@xml/contacts" />
+287-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:222:13-45
+288        </service>
+289        <service
+289-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:225:5-235:15
+290            android:name="org.linphone.contact.DummyAuthenticationService"
+290-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:226:9-59
+291            android:exported="true" >
+291-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:227:9-32
+292            <intent-filter>
+292-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:228:9-230:25
+293                <action android:name="android.accounts.AccountAuthenticator" />
+293-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:229:13-76
+293-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:229:21-73
+294            </intent-filter>
+295
+296            <meta-data
+296-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:232:9-234:53
+297                android:name="android.accounts.AccountAuthenticator"
+297-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:233:13-65
+298                android:resource="@xml/authenticator" />
+298-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:234:13-50
+299        </service>
+300        <service
+300-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:237:5-244:15
+301            android:name="org.linphone.telecom.TelecomConnectionService"
+301-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:238:9-57
+302            android:exported="true"
+302-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:240:9-32
+303            android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE" >
+303-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:239:9-80
+304            <intent-filter>
+304-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:241:9-243:25
+305                <action android:name="android.telecom.ConnectionService" />
+305-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:242:13-72
+305-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:242:21-69
+306            </intent-filter>
+307        </service>
+308
+309        <!-- Receivers -->
+310
+311        <receiver
+311-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:248:5-254:16
+312            android:name="org.linphone.core.CorePushReceiver"
+312-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:249:9-46
+313            android:exported="false" >
+313-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:250:9-33
+314            <intent-filter>
+314-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:251:9-253:25
+315                <action android:name="org.linphone.core.action.PUSH_RECEIVED" />
+315-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:252:13-77
+315-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:252:21-74
+316            </intent-filter>
+317        </receiver>
+318        <receiver
+318-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:256:5-259:36
+319            android:name="org.linphone.notifications.NotificationBroadcastReceiver"
+319-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:257:9-68
+320            android:enabled="true"
+320-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:258:9-31
+321            android:exported="false" />
+321-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:259:9-33
+322        <receiver
+322-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:261:5-268:16
+323            android:name="org.linphone.core.BootReceiver"
+323-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:262:9-42
+324            android:exported="true" >
+324-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:263:9-32
+325            <intent-filter>
+325-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:264:9-267:25
+326                <action android:name="android.intent.action.BOOT_COMPLETED" />
+326-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:265:13-75
+326-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:265:21-72
+327                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+327-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:266:13-80
+327-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:266:21-77
+328            </intent-filter>
+329        </receiver>
+330
+331        <!-- Providers -->
+332
+333        <provider
+334            android:name="androidx.core.content.FileProvider"
+334-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:273:9-58
+335            android:authorities="org.linphone.debug.fileprovider"
+335-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:274:9-56
+336            android:exported="false"
+336-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:275:9-33
+337            android:grantUriPermissions="true" >
+337-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:276:9-43
+338            <meta-data
+338-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:277:9-279:54
+339                android:name="android.support.FILE_PROVIDER_PATHS"
+339-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:278:13-63
+340                android:resource="@xml/provider_paths" />
+340-->F:\ArtPhone 1.0\app\src\main\AndroidManifest.xml:279:13-51
+341        </provider>
+342
+343        <uses-library
+343-->[androidx.window:window:1.2.0] F:\.gradle\caches\8.9\transforms\07b170e665aef1ff40a98ac75e85213b\transformed\window-1.2.0\AndroidManifest.xml:23:9-25:40
+344            android:name="androidx.window.extensions"
+344-->[androidx.window:window:1.2.0] F:\.gradle\caches\8.9\transforms\07b170e665aef1ff40a98ac75e85213b\transformed\window-1.2.0\AndroidManifest.xml:24:13-54
+345            android:required="false" />
+345-->[androidx.window:window:1.2.0] F:\.gradle\caches\8.9\transforms\07b170e665aef1ff40a98ac75e85213b\transformed\window-1.2.0\AndroidManifest.xml:25:13-37
+346        <uses-library
+346-->[androidx.window:window:1.2.0] F:\.gradle\caches\8.9\transforms\07b170e665aef1ff40a98ac75e85213b\transformed\window-1.2.0\AndroidManifest.xml:26:9-28:40
+347            android:name="androidx.window.sidecar"
+347-->[androidx.window:window:1.2.0] F:\.gradle\caches\8.9\transforms\07b170e665aef1ff40a98ac75e85213b\transformed\window-1.2.0\AndroidManifest.xml:27:13-51
+348            android:required="false" />
+348-->[androidx.window:window:1.2.0] F:\.gradle\caches\8.9\transforms\07b170e665aef1ff40a98ac75e85213b\transformed\window-1.2.0\AndroidManifest.xml:28:13-37
+349
+350        <provider
+350-->[androidx.emoji2:emoji2:1.4.0] F:\.gradle\caches\8.9\transforms\f6cef16af21d5649304ee495e73328df\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+351            android:name="androidx.startup.InitializationProvider"
+351-->[androidx.emoji2:emoji2:1.4.0] F:\.gradle\caches\8.9\transforms\f6cef16af21d5649304ee495e73328df\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
+352            android:authorities="org.linphone.debug.androidx-startup"
+352-->[androidx.emoji2:emoji2:1.4.0] F:\.gradle\caches\8.9\transforms\f6cef16af21d5649304ee495e73328df\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
+353            android:exported="false" >
+353-->[androidx.emoji2:emoji2:1.4.0] F:\.gradle\caches\8.9\transforms\f6cef16af21d5649304ee495e73328df\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
+354            <meta-data
+354-->[androidx.emoji2:emoji2:1.4.0] F:\.gradle\caches\8.9\transforms\f6cef16af21d5649304ee495e73328df\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+355                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+355-->[androidx.emoji2:emoji2:1.4.0] F:\.gradle\caches\8.9\transforms\f6cef16af21d5649304ee495e73328df\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+356                android:value="androidx.startup" />
+356-->[androidx.emoji2:emoji2:1.4.0] F:\.gradle\caches\8.9\transforms\f6cef16af21d5649304ee495e73328df\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+357            <meta-data
+357-->[androidx.lifecycle:lifecycle-process:2.8.7] F:\.gradle\caches\8.9\transforms\c7800bc828bff828f2a0bbba358bf9a0\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+358                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+358-->[androidx.lifecycle:lifecycle-process:2.8.7] F:\.gradle\caches\8.9\transforms\c7800bc828bff828f2a0bbba358bf9a0\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+359                android:value="androidx.startup" />
+359-->[androidx.lifecycle:lifecycle-process:2.8.7] F:\.gradle\caches\8.9\transforms\c7800bc828bff828f2a0bbba358bf9a0\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+360            <meta-data
+360-->[androidx.profileinstaller:profileinstaller:1.3.1] F:\.gradle\caches\8.9\transforms\5970e3ab455e0c145fe91c6cac18782a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+361                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+361-->[androidx.profileinstaller:profileinstaller:1.3.1] F:\.gradle\caches\8.9\transforms\5970e3ab455e0c145fe91c6cac18782a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+362                android:value="androidx.startup" />
+362-->[androidx.profileinstaller:profileinstaller:1.3.1] F:\.gradle\caches\8.9\transforms\5970e3ab455e0c145fe91c6cac18782a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+363        </provider>
+364
+365        <receiver
+365-->[androidx.profileinstaller:profileinstaller:1.3.1] F:\.gradle\caches\8.9\transforms\5970e3ab455e0c145fe91c6cac18782a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+366            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+366-->[androidx.profileinstaller:profileinstaller:1.3.1] F:\.gradle\caches\8.9\transforms\5970e3ab455e0c145fe91c6cac18782a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+367            android:directBootAware="false"
+367-->[androidx.profileinstaller:profileinstaller:1.3.1] F:\.gradle\caches\8.9\transforms\5970e3ab455e0c145fe91c6cac18782a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+368            android:enabled="true"
+368-->[androidx.profileinstaller:profileinstaller:1.3.1] F:\.gradle\caches\8.9\transforms\5970e3ab455e0c145fe91c6cac18782a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+369            android:exported="true"
+369-->[androidx.profileinstaller:profileinstaller:1.3.1] F:\.gradle\caches\8.9\transforms\5970e3ab455e0c145fe91c6cac18782a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+370            android:permission="android.permission.DUMP" >
+370-->[androidx.profileinstaller:profileinstaller:1.3.1] F:\.gradle\caches\8.9\transforms\5970e3ab455e0c145fe91c6cac18782a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+371            <intent-filter>
+371-->[androidx.profileinstaller:profileinstaller:1.3.1] F:\.gradle\caches\8.9\transforms\5970e3ab455e0c145fe91c6cac18782a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+372                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+372-->[androidx.profileinstaller:profileinstaller:1.3.1] F:\.gradle\caches\8.9\transforms\5970e3ab455e0c145fe91c6cac18782a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+372-->[androidx.profileinstaller:profileinstaller:1.3.1] F:\.gradle\caches\8.9\transforms\5970e3ab455e0c145fe91c6cac18782a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+373            </intent-filter>
+374            <intent-filter>
+374-->[androidx.profileinstaller:profileinstaller:1.3.1] F:\.gradle\caches\8.9\transforms\5970e3ab455e0c145fe91c6cac18782a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+375                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+375-->[androidx.profileinstaller:profileinstaller:1.3.1] F:\.gradle\caches\8.9\transforms\5970e3ab455e0c145fe91c6cac18782a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+375-->[androidx.profileinstaller:profileinstaller:1.3.1] F:\.gradle\caches\8.9\transforms\5970e3ab455e0c145fe91c6cac18782a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+376            </intent-filter>
+377            <intent-filter>
+377-->[androidx.profileinstaller:profileinstaller:1.3.1] F:\.gradle\caches\8.9\transforms\5970e3ab455e0c145fe91c6cac18782a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+378                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+378-->[androidx.profileinstaller:profileinstaller:1.3.1] F:\.gradle\caches\8.9\transforms\5970e3ab455e0c145fe91c6cac18782a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+378-->[androidx.profileinstaller:profileinstaller:1.3.1] F:\.gradle\caches\8.9\transforms\5970e3ab455e0c145fe91c6cac18782a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+379            </intent-filter>
+380            <intent-filter>
+380-->[androidx.profileinstaller:profileinstaller:1.3.1] F:\.gradle\caches\8.9\transforms\5970e3ab455e0c145fe91c6cac18782a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+381                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+381-->[androidx.profileinstaller:profileinstaller:1.3.1] F:\.gradle\caches\8.9\transforms\5970e3ab455e0c145fe91c6cac18782a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+381-->[androidx.profileinstaller:profileinstaller:1.3.1] F:\.gradle\caches\8.9\transforms\5970e3ab455e0c145fe91c6cac18782a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+382            </intent-filter>
+383        </receiver>
+384    </application>
+385
+386</manifest>

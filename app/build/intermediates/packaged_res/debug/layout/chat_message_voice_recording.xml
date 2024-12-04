@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+                                          
+                 
+                            
+                                                                                              
+                 
+                                     
+                             
+           
+
+    <RelativeLayout
+        android:id="@+id/voice_recording"
+        android:background="?attr/backgroundColor2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+                                                  
+                                         android:tag="layout/chat_message_voice_recording_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <ImageView
+            android:id="@+id/cancel_recording"
+            android:tag="binding_1"                                    
+            android:contentDescription="@string/content_description_cancel_voice_recording"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/delete" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_toRightOf="@id/cancel_recording"
+            android:layout_toLeftOf="@id/play_pause_stop"
+            android:background="@drawable/chat_message_voice_recording_background">
+
+            <org.linphone.views.VoiceRecordProgressBar
+                android:tag="binding_2"                                                      
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/progress_bar_height"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                                                          
+                                                                                   
+                                                             
+                app:progressDrawable="@drawable/chat_message_audio_record_progress"
+                                                                 
+                app:primaryRightMargin="50dp"/>
+
+            <ProgressBar
+                android:tag="binding_3"                                                      
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/progress_bar_height"
+                android:layout_toLeftOf="@id/duration"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:progressDrawable="@drawable/chat_message_audio_record_preview_progress"
+                                                                       
+                                                                      />
+
+            <TextView
+                android:id="@+id/duration"
+                android:text="00:00"                                          
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/light_primary_text_color"
+                android:textSize="15sp"  android:tag="binding_4"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/play_pause_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:tag="binding_5"                                                      
+                                                                         
+                android:contentDescription="@string/content_description_stop_voice_recording"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="9dp"
+                android:background="@drawable/round_recording_button_background_light"
+                android:src="@drawable/record_stop_light" />
+
+            <ImageView
+                android:visibility="gone"                                                                                                                 
+                android:tag="binding_6"                                   
+                android:contentDescription="@string/content_description_play_voice_recording"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="9dp"
+                android:background="@drawable/round_recording_button_background_light"
+                android:src="@drawable/record_play_light" />
+
+            <ImageView
+                android:visibility="gone"                                                                                                                
+                android:tag="binding_7"                                    
+                android:contentDescription="@string/content_description_pause_voice_recording_playback"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="9dp"
+                android:background="@drawable/round_recording_button_background_light"
+                android:src="@drawable/record_pause_light" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+         

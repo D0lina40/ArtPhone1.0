@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+    
+                                           
+                                                
+                 
+                       
+                                                                                         
+           
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"                                                     
+        android:paddingBottom="5dp" android:tag="layout/contact_number_address_editor_cell_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/delete"
+            android:paddingRight="5dp"
+            android:hint="@string/sip_address"                                                                          android:tag="binding_1">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:tag="binding_2"         
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                                                                                                                                 
+                android:background="@color/transparent_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/delete"
+            android:tag="binding_3"                 
+            android:contentDescription="@string/content_description_clear_field"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/field_remove"
+            android:layout_marginLeft="5dp" />
+
+    </RelativeLayout>
+
+         

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    
+                                           
+                 
+                       
+                                                                                               
+           
+
+    <RelativeLayout
+        android:tag="layout/settings_account_cell_0"                                            
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|left"  xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:id="@+id/led"
+            android:background="@drawable/led_background"
+            android:padding="@dimen/contact_presence_badge_padding"
+            android:src="@drawable/led_not_registered"                              
+            android:tag="binding_1"                                    
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <org.linphone.views.MarqueeTextView
+            android:id="@+id/settings_title"
+            android:tag="binding_2"                                                                
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_toLeftOf="@id/led"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            style="@style/settings_item_font"/>
+
+        <org.linphone.views.MarqueeTextView
+            android:id="@+id/settings_subtitle"
+            android:tag="binding_3"                                            
+            android:text="@string/settings_default_account_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_below="@id/settings_title"
+            android:layout_toLeftOf="@id/led"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            style="@style/settings_item_subtitle_font"/>
+
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/settings_subtitle"
+            android:background="?attr/dividerColor" />
+
+    </RelativeLayout>
+
+         

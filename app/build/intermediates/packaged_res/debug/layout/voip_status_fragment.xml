@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    
+                                          
+                 
+                                       
+                                                      
+                 
+                            
+                                                                             
+           
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/status_fragment_size"
+        android:background="#4CAF50"
+        android:orientation="horizontal" android:tag="layout/voip_status_fragment_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:id="@+id/stats_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:tag="binding_1"                                                
+                                                                
+            android:padding="10dp"
+            android:src="@drawable/call_quality_indicator_0"                                       />
+
+        <ImageView
+            android:id="@+id/status_led"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@id/stats_button"
+            android:adjustViewBounds="true"
+            android:background="@drawable/shape_call_numpad_background"
+            android:tag="binding_2"                                         
+                                                     
+            android:padding="2dp"
+            android:src="@drawable/led_not_registered"                                                  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/status_led"
+            android:gravity="center_vertical"
+            android:tag="binding_3"                  
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:text="Подключено"
+            android:textColor="?attr/accentTextColor"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:tag="binding_4"                                               
+                                                                 
+            android:padding="10dp"
+            android:src="@drawable/security_ko"                                     
+            android:visibility="gone"                                                                        />
+
+    </RelativeLayout>
+
+         

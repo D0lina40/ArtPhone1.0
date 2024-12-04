@@ -1,0 +1,20 @@
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="vector"
+    android:width="60dp"
+    android:height="60dp"
+    android:viewportWidth="60"
+    android:viewportHeight="60">
+    <group
+        android:name="group"
+        android:translateX="15"
+        android:translateY="15"
+        android:scaleX="0.5"
+        android:scaleY="0.5">
+        <path
+            android:name="path"
+            android:pathData=""
+            android:fillColor="@color/dark_green_color"
+            android:strokeWidth="1"/>
+    </group>
+</vector>

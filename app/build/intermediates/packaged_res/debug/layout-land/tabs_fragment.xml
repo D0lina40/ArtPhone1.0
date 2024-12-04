@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                               
+
+    
+                                          
+                 
+                                       
+                                                      
+                 
+                                        
+                                                      
+                 
+                                      
+                                                      
+                 
+                                    
+                                                      
+                 
+                            
+                                                                           
+           
+
+    <androidx.constraintlayout.motion.widget.MotionLayout
+        android:id="@+id/motion_layout"
+        android:layout_width="@dimen/main_activity_tabs_fragment_size"
+        android:layout_height="match_parent"
+        app:layoutDescription="@xml/motion_main_activity_tabs_selector_land" android:tag="layout-land/tabs_fragment_0" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            layout_constraintGuide_percent="0.25"                                   android:tag="binding_1"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineMiddle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            layout_constraintGuide_percent="0.5"                                     android:tag="binding_2"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineBottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            layout_constraintGuide_percent="0.75"                                    android:tag="binding_3"/>
+
+        <ImageView
+            android:id="@+id/history"
+            android:tag="binding_4"                  
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/content_description_menu_history"
+            android:padding="15dp"
+            android:background="@drawable/footer_button"
+            android:src="@drawable/footer_history"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/guidelineTop" />
+
+        <TextView
+            android:id="@+id/history_unread_count"
+            style="@style/unread_count_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:tag="binding_5"                                         
+                                                                                                                                                  
+                                                                                                               
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RelativeLayout
+            android:id="@+id/contacts"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/footer_button"
+            android:tag="binding_6"                   
+            app:layout_constraintTop_toTopOf="@id/guidelineTop"
+            app:layout_constraintBottom_toTopOf="@id/guidelineMiddle">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/content_description_menu_contacts"
+                android:padding="15dp"
+                android:src="@drawable/footer_contacts" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/dialer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/footer_button"
+            android:tag="binding_7"                 
+            app:layout_constraintTop_toTopOf="@id/guidelineMiddle"
+            app:layout_constraintBottom_toTopOf="@id/guidelineBottom">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/content_description_menu_dialer"
+                android:padding="15dp"
+                android:src="@drawable/footer_dialer" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/chat"
+            android:tag="binding_8"               
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/content_description_menu_chat"
+            android:padding="15dp"
+            android:src="@drawable/footer_chat"
+            android:background="@drawable/footer_button"
+            app:layout_constraintTop_toTopOf="@id/guidelineBottom"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <TextView
+            android:id="@+id/chat_unread_count"
+            style="@style/unread_count_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:tag="binding_9"                                      
+                                                                                                                                                     
+                                                                                                                     
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/guidelineBottom" />
+
+        <View
+            android:id="@+id/selector"
+            android:layout_width="@dimen/tabs_fragment_selector_size"
+            android:layout_height="0dp"
+            android:background="?attr/accentColor" />
+
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+
+         

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    
+                                           
+                 
+                       
+                                                                                            
+           
+
+    <RelativeLayout
+        android:tag="layout/settings_ldap_cell_0"                                        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|left"  xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <org.linphone.views.MarqueeTextView
+            android:id="@+id/settings_title"
+            style="@style/settings_item_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:singleLine="true"
+            android:text="ldap://ldap.example.org"                                android:tag="binding_1"/>
+
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/settings_title"
+            android:background="?attr/dividerColor" />
+
+    </RelativeLayout>
+
+         

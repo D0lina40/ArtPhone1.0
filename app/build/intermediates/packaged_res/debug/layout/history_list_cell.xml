@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+                                           
+                                                               
+
+                 
+                                
+                                                       
+
+                 
+                                    
+                                                           
+
+                 
+                                       
+                                                       
+
+                 
+                           
+                             
+
+                 
+                            
+                                                                                      
+
+                 
+                                         
+                                                                                 
+
+                 
+                             
+                             
+           
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="?attr/backgroundColor"
+        android:gravity="center_vertical"
+                                          
+        android:tag="layout/history_list_cell_0"  
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <LinearLayout
+            android:id="@+id/right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/history_detail_background"
+                android:contentDescription="@string/content_description_show_call_details"
+                android:tag="binding_1"                                      
+                                                         
+                android:src="@drawable/list_details" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:tag="binding_2"                                                     
+                                                                                          
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:visibility="gone"                                                                                />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@id/right"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/avatar"
+                android:tag="binding_3"   
+                android:layout_width="@dimen/contact_avatar_size"
+                android:layout_height="@dimen/contact_avatar_size"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="10dp"
+                android:contentDescription="@null"
+                android:background="@drawable/generated_avatar_bg"
+                android:src="@drawable/voip_single_contact_avatar" />
+
+            <ImageView
+                android:layout_width="@dimen/contact_presence_badge_size"
+                android:layout_height="@dimen/contact_presence_badge_size"
+                android:layout_alignBottom="@id/avatar"
+                android:layout_marginStart="25dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/led_background"
+                android:padding="@dimen/contact_presence_badge_padding"
+                android:tag="binding_4"                       
+                android:visibility="gone"                                                                                                
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/avatar"
+                android:adjustViewBounds="true"
+                android:tag="binding_5"                                         
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:src="@drawable/call_status_outgoing"                                         
+                                                                                                 />
+
+            <org.linphone.views.MarqueeTextView
+                android:id="@+id/sip_uri"
+                style="@style/contact_name_list_cell_font"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/icon"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="Frodo Baggins (6)"                                                                                                                                                                                  android:tag="binding_6"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+         

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                               
+
+    
+                                           
+                 
+                                     
+                                          
+                 
+                                      
+                                          
+                 
+                                        
+                                          
+                 
+                                       
+                                          
+                 
+                                     
+                                          
+                 
+                                    
+                                          
+                 
+                                             
+                                          
+                 
+                                      
+                                          
+                 
+                               
+                             
+                 
+                             
+                             
+                 
+                                 
+                             
+                 
+                                
+                             
+                 
+                                      
+                             
+                 
+                              
+                             
+                 
+                                
+                             
+                 
+                                   
+                             
+                 
+                                   
+                             
+                 
+                                    
+                             
+                 
+                                 
+                             
+           
+
+    <LinearLayout
+        android:layout_width="@dimen/chat_message_popup_width"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="?attr/backgroundColor" android:tag="layout/chat_message_long_press_menu_0" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/chat_message_popup_item_height"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                style="@style/chat_message_emoji_reaction_font"
+                android:tag="binding_1"                
+                android:id="@+id/love"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/emoji_love"
+                android:textColor="?attr/primaryTextColor"
+                android:background="@drawable/shape_own_reaction_background"                                                                                                                      
+                app:layout_constraintEnd_toStartOf="@id/thumbs_up"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <TextView
+                style="@style/chat_message_emoji_reaction_font"
+                android:tag="binding_2"                
+                android:id="@+id/thumbs_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/emoji_thumbs_up"
+                android:textColor="?attr/primaryTextColor"
+                                                                                                                                                    
+                app:layout_constraintEnd_toStartOf="@id/laughing"
+                app:layout_constraintStart_toEndOf="@id/love"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+            <TextView
+                style="@style/chat_message_emoji_reaction_font"
+                android:tag="binding_3"                
+                android:id="@+id/laughing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/emoji_laughing"
+                android:textColor="?attr/primaryTextColor"
+                                                                                                                                                    
+                app:layout_constraintEnd_toStartOf="@id/surprised"
+                app:layout_constraintStart_toEndOf="@id/thumbs_up"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+            <TextView
+                style="@style/chat_message_emoji_reaction_font"
+                android:tag="binding_4"                
+                android:id="@+id/surprised"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/emoji_surprised"
+                android:textColor="?attr/primaryTextColor"
+                                                                                                                                                     
+                app:layout_constraintEnd_toStartOf="@id/tear"
+                app:layout_constraintStart_toEndOf="@id/laughing"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+            <TextView
+                style="@style/chat_message_emoji_reaction_font"
+                android:tag="binding_5"                
+                android:id="@+id/tear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/emoji_tear"
+                android:textColor="?attr/primaryTextColor"
+                                                                                                                                                  
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/surprised"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/chat_message_popup_item_height"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/menu_background"
+            android:tag="binding_6"                                        
+                                                    
+            style="@style/popup_item_font"
+            android:text="@string/chat_message_context_menu_resend"
+            app:drawableRightCompat="@drawable/chat_send_message" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/chat_message_popup_item_height"
+            android:background="@drawable/menu_background"
+            android:tag="binding_7"                                          
+                                                      
+            style="@style/popup_item_font"
+            android:text="@string/chat_message_context_menu_copy_text"
+            app:drawableRightCompat="@drawable/menu_copy_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/chat_message_popup_item_height"
+            android:background="@drawable/menu_background"
+            android:tag="binding_8"                  
+                                                                            
+            style="@style/popup_item_font"
+            android:text="@string/chat_message_context_menu_forward"
+            app:drawableRightCompat="@drawable/menu_forward" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/chat_message_popup_item_height"
+            android:background="@drawable/menu_background"
+            android:tag="binding_9"                
+                                                                          
+            style="@style/popup_item_font"
+            android:text="@string/chat_message_context_menu_reply"
+            app:drawableRightCompat="@drawable/menu_reply" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/chat_message_popup_item_height"
+            android:background="@drawable/menu_background"
+            android:tag="binding_10"                                     
+                                                  
+            style="@style/popup_item_font"
+            android:text="@string/chat_message_context_menu_imdn_info"
+            app:drawableRightCompat="@drawable/menu_imdn_info" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/chat_message_popup_item_height"
+            android:background="@drawable/menu_background"
+            android:tag="binding_11"                                              
+                                                           
+            style="@style/popup_item_font"
+            android:text="@string/chat_message_context_menu_add_to_contacts"
+            app:drawableRightCompat="@drawable/chat_room_menu_add_contact" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/chat_message_popup_item_height"
+            android:background="@drawable/menu_background"
+            android:tag="binding_12"                
+            style="@style/popup_item_font"
+            android:textColor="@color/red_color"
+            android:text="@string/chat_message_context_menu_delete"
+            app:drawableRightCompat="@drawable/menu_delete" />
+
+    </LinearLayout>
+
+         

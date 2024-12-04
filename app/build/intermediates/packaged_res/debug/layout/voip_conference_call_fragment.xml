@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                  
+
+    
+
+                                           
+
+                                                                            
+
+                                                                  
+
+                 
+                                    
+                                                                               
+
+                 
+                                 
+                                                                            
+
+                 
+                                      
+                                                                                 
+
+                 
+                                 
+                                                                                     
+           
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/voipBackgroundColor" android:tag="layout/voip_conference_call_fragment_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/tools">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraint_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:tag="binding_1"                                                                                 >
+
+            <ViewStub
+                android:id="@+id/stubbed_conference_active_speaker_layout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout="@layout/voip_conference_active_speaker"
+                android:visibility="gone"                                                                                                                                                                                                                                               
+                android:tag="binding_2"                         
+                                                            
+                                                                                                                                                                                                                                                                              
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ViewStub
+                android:id="@+id/stubbed_conference_grid_layout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout="@layout/voip_conference_grid"
+                android:visibility="gone"                                                                                                                                                                                                                                     
+                android:tag="binding_3"                         
+                                                            
+                                                                                                                                                                                                                                                                    
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ViewStub
+                android:id="@+id/stubbed_conference_audio_only_layout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout="@layout/voip_conference_audio_only"
+                android:visibility="gone"                                                                                                                                                                                                                                           
+                android:tag="binding_4"                         
+                                                            
+                                                                                                                                                                                                                                                                          
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ViewStub
+                android:id="@+id/stubbed_audio_routes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginBottom="10dp"
+                android:layout="@layout/voip_buttons_audio_routes"
+                android:tag="binding_5"                                                                
+                                                            
+                                                                                                           
+                app:layout_constraintBottom_toTopOf="@id/primary_buttons"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <include
+                android:id="@+id/primary_buttons"
+                layout="@layout/voip_buttons"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/voip_buttons_fragment_size"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                                                                                                                                
+                                                      
+                                                                
+                                                            
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintWidth_max="@dimen/voip_buttons_max_width" />
+
+            <ViewStub
+                android:id="@+id/stubbed_paused_conference"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="2dp"
+                android:layout="@layout/voip_conference_paused"
+                android:visibility="gone"                                                                                     
+                android:tag="binding_6"                         
+                                                                                                                    
+                app:layout_constraintBottom_toTopOf="@id/primary_buttons"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/popup_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/voip_translucent_popup_background"
+                android:tag="binding_7"                                             
+                android:visibility="gone"                                                                     />
+
+            <include
+                android:id="@+id/extra_buttons_layout"
+                layout="@layout/voip_buttons_extra"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/voip_call_extra_buttons_height"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:translationY="@dimen/voip_call_extra_buttons_translate_y"                                                         
+                                                      
+                                                                
+                                                            
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintWidth_max="@dimen/voip_extra_menu_max_width" />
+
+            <ViewStub
+                android:id="@+id/stubbed_call_stats"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout="@layout/voip_call_stats"
+                android:visibility="gone"                                                                          
+                android:tag="binding_8"                     
+                                                                                                         
+                                                       />
+
+            <ViewStub
+                android:id="@+id/stubbed_numpad"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout="@layout/voip_numpad"
+                android:visibility="gone"                                                                       
+                android:tag="binding_9"                     
+                                                                                                       />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <include
+            android:id="@+id/creation_pending_layout"
+            layout="@layout/voip_conference_creation_pending_wait_layout"
+                                                                               />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+         

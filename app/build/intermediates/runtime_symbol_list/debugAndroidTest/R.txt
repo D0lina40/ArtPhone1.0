@@ -1,0 +1,6 @@
+int bool crashlytics_enabled 0x7f010000
+int string file_provider 0x7f020000
+int string gcm_defaultSenderId 0x7f020001
+int string linphone_address_mime_type 0x7f020002
+int string linphone_app_branch 0x7f020003
+int string sync_account_type 0x7f020004

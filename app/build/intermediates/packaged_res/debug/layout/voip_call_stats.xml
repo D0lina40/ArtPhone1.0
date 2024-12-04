@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+                                           
+                 
+                                 
+                                                                                     
+                 
+                                    
+                                                                               
+                 
+                                     
+                             
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/stats_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/voip_translucent_popup_background"
+        android:clickable="true"
+        android:tag="layout/voip_call_stats_0"    
+                                          xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <View
+            android:id="@+id/background"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/shape_call_popup_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_max="@dimen/voip_views_max_width" />
+
+        <ImageView
+            android:id="@+id/hide_stats"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/content_description_hide_statistics"
+            android:tag="binding_1"                                     
+            android:src="@drawable/icon_cancel_alt"
+            app:layout_constraintEnd_toEndOf="@id/background"
+            app:layout_constraintTop_toTopOf="@id/background" />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/stats_scroll_layout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_below="@id/hide_stats"
+            app:layout_constraintEnd_toEndOf="@id/background"
+            app:layout_constraintStart_toStartOf="@id/background"
+            app:layout_constraintTop_toBottomOf="@id/hide_stats"
+            app:layout_constraintBottom_toBottomOf="@id/background"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:id="@+id/stats_list_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:tag="binding_2"                      
+                                                             />
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+         

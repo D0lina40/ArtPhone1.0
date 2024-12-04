@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    
+                                           
+                 
+                       
+                                                                                               
+           
+
+    <RelativeLayout
+        android:tag="layout/side_menu_account_cell_0"                                           
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"  xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:tag="binding_1"                                                                                           
+            android:textColor="?attr/primaryTextColor"
+            android:textSize="13sp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="2dp"
+            android:layout_marginLeft="@dimen/settings_margin" />
+
+        <ImageView
+            android:src="@drawable/led_not_registered"                              
+            android:background="@drawable/led_background"
+            android:tag="binding_2"                                    
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/settings_margin"
+            android:padding="@dimen/contact_presence_badge_padding" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="?attr/dividerColor" />
+
+    </RelativeLayout>
+
+         

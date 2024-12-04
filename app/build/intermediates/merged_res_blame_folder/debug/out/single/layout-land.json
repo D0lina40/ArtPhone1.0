@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "org.linphone.app-mergeDebugResources-62:/layout-land/voip_conference_grid.xml",
+        "source": "org.linphone.app-main-65:/layout-land/voip_conference_grid.xml"
+    },
+    {
+        "merged": "org.linphone.app-mergeDebugResources-62:/layout-land/about_fragment.xml",
+        "source": "org.linphone.app-main-65:/layout-land/about_fragment.xml"
+    },
+    {
+        "merged": "org.linphone.app-mergeDebugResources-62:/layout-land/voip_conference_active_speaker.xml",
+        "source": "org.linphone.app-main-65:/layout-land/voip_conference_active_speaker.xml"
+    },
+    {
+        "merged": "org.linphone.app-mergeDebugResources-62:/layout-land/dialer_fragment.xml",
+        "source": "org.linphone.app-main-65:/layout-land/dialer_fragment.xml"
+    },
+    {
+        "merged": "org.linphone.app-mergeDebugResources-62:/layout-land/conference_waiting_room_fragment.xml",
+        "source": "org.linphone.app-main-65:/layout-land/conference_waiting_room_fragment.xml"
+    },
+    {
+        "merged": "org.linphone.app-mergeDebugResources-62:/layout-land/assistant_welcome_fragment.xml",
+        "source": "org.linphone.app-main-65:/layout-land/assistant_welcome_fragment.xml"
+    },
+    {
+        "merged": "org.linphone.app-mergeDebugResources-62:/layout-land/voip_numpad.xml",
+        "source": "org.linphone.app-main-65:/layout-land/voip_numpad.xml"
+    },
+    {
+        "merged": "org.linphone.app-mergeDebugResources-62:/layout-land/main_activity_content.xml",
+        "source": "org.linphone.app-main-65:/layout-land/main_activity_content.xml"
+    },
+    {
+        "merged": "org.linphone.app-mergeDebugResources-62:/layout-land/tabs_fragment.xml",
+        "source": "org.linphone.app-main-65:/layout-land/tabs_fragment.xml"
+    }
+]

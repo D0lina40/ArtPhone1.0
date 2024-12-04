@@ -1,0 +1,158 @@
+[
+  {
+    "name": "assistant_nav_graph",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "call_nav_graph",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "chat_nav_graph",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "contacts_nav_graph",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "history_nav_graph",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "main_nav_graph",
+    "navigationXmlIds": [],
+    "deepLinks": [
+      {
+        "schemes": [
+          "linphone-android"
+        ],
+        "host": "chat-room",
+        "port": -1,
+        "path": "/.*/.*",
+        "sourceFilePosition": {
+          "mSourceFile": {
+            "mFilePath": "F:\\ArtPhone 1.0\\app\\src\\main\\res\\navigation\\main_nav_graph.xml",
+            "mDescription": "main_nav_graph"
+          },
+          "mSourcePosition": {
+            "mStartLine": 32,
+            "mStartColumn": 8,
+            "mStartOffset": 1383,
+            "mEndLine": 34,
+            "mEndColumn": 40,
+            "mEndOffset": 1513
+          }
+        },
+        "isAutoVerify": true,
+        "action": "android.intent.action.VIEW"
+      },
+      {
+        "schemes": [
+          "linphone-android"
+        ],
+        "host": "contact",
+        "port": -1,
+        "path": "/view/.*",
+        "sourceFilePosition": {
+          "mSourceFile": {
+            "mFilePath": "F:\\ArtPhone 1.0\\app\\src\\main\\res\\navigation\\main_nav_graph.xml",
+            "mDescription": "main_nav_graph"
+          },
+          "mSourcePosition": {
+            "mStartLine": 53,
+            "mStartColumn": 8,
+            "mStartOffset": 2403,
+            "mEndLine": 55,
+            "mEndColumn": 40,
+            "mEndOffset": 2512
+          }
+        },
+        "isAutoVerify": true,
+        "action": "android.intent.action.VIEW"
+      },
+      {
+        "schemes": [
+          "linphone-android"
+        ],
+        "host": "contact",
+        "port": -1,
+        "path": "/view-friend/.*",
+        "sourceFilePosition": {
+          "mSourceFile": {
+            "mFilePath": "F:\\ArtPhone 1.0\\app\\src\\main\\res\\navigation\\main_nav_graph.xml",
+            "mDescription": "main_nav_graph"
+          },
+          "mSourcePosition": {
+            "mStartLine": 56,
+            "mStartColumn": 8,
+            "mStartOffset": 2521,
+            "mEndLine": 58,
+            "mEndColumn": 40,
+            "mEndOffset": 2642
+          }
+        },
+        "isAutoVerify": true,
+        "action": "android.intent.action.VIEW"
+      },
+      {
+        "schemes": [
+          "linphone-android"
+        ],
+        "host": "contact",
+        "port": -1,
+        "path": "/new/.*",
+        "sourceFilePosition": {
+          "mSourceFile": {
+            "mFilePath": "F:\\ArtPhone 1.0\\app\\src\\main\\res\\navigation\\main_nav_graph.xml",
+            "mDescription": "main_nav_graph"
+          },
+          "mSourcePosition": {
+            "mStartLine": 59,
+            "mStartColumn": 8,
+            "mStartOffset": 2651,
+            "mEndLine": 61,
+            "mEndColumn": 40,
+            "mEndOffset": 2763
+          }
+        },
+        "isAutoVerify": true,
+        "action": "android.intent.action.VIEW"
+      },
+      {
+        "schemes": [
+          "linphone-android"
+        ],
+        "host": "settings",
+        "port": -1,
+        "path": "/.*",
+        "sourceFilePosition": {
+          "mSourceFile": {
+            "mFilePath": "F:\\ArtPhone 1.0\\app\\src\\main\\res\\navigation\\main_nav_graph.xml",
+            "mDescription": "main_nav_graph"
+          },
+          "mSourcePosition": {
+            "mStartLine": 127,
+            "mStartColumn": 8,
+            "mStartOffset": 5684,
+            "mEndLine": 129,
+            "mEndColumn": 40,
+            "mEndOffset": 5795
+          }
+        },
+        "isAutoVerify": true,
+        "action": "android.intent.action.VIEW"
+      }
+    ]
+  },
+  {
+    "name": "settings_nav_graph",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  }
+]

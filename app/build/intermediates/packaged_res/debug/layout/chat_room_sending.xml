@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+                                          
+                 
+                                          
+                                                      
+                 
+                                              
+                                                       
+                 
+                                             
+                                                       
+                 
+                            
+                                                                                    
+                 
+                                       
+                                                                                              
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/lightToolbarBackgroundColor" android:tag="layout/chat_room_sending_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <androidx.constraintlayout.widget.Group
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="binding_1"                                                           
+            app:constraint_referenced_ids="attached_files, attach_file, voice_record, message, send_message" />
+
+        <ViewStub
+            android:id="@+id/stubbed_message_to_reply_to"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inflatedId="@+id/chat_message_reply"
+            android:layout="@layout/chat_message_reply"
+            android:visibility="gone"                                                                            
+            android:tag="binding_2"                                
+                                                                          
+                                                                                                       
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@+id/reply_barrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="bottom"
+            app:constraint_referenced_ids="stubbed_message_to_reply_to, chat_message_reply" />
+
+        <ViewStub
+            android:id="@+id/stubbed_voice_recording"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inflatedId="@+id/voice_recording"
+            android:layout="@layout/chat_message_voice_recording"
+            android:visibility="gone"                                                                                 
+            android:tag="binding_3"                                                                         
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/reply_barrier"
+                                                    />
+
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@+id/voice_barrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="bottom"
+            app:constraint_referenced_ids="stubbed_voice_recording, voice_recording" />
+
+        <View
+            android:id="@+id/voice_recording_separator"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="?attr/dividerColor"
+            android:visibility="gone"                                                                                                                                        
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/voice_barrier"  android:tag="binding_4"/>
+
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@+id/chat_message_reply_voice_barrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="bottom"
+            app:constraint_referenced_ids="stubbed_message_to_reply_to, stubbed_voice_recording, voice_recording_separator" />
+
+        <HorizontalScrollView
+            android:id="@+id/attached_files"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="?attr/backgroundColor2"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/voice_recording_separator">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:orientation="horizontal"
+                android:visibility="gone"                                                                                                                                     
+                android:tag="binding_5"                          
+                                                                     />
+
+        </HorizontalScrollView>
+
+        <androidx.emoji2.emojipicker.EmojiPickerView
+            android:id="@+id/emoji_picker"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/chat_room_emoji_picker_height"
+            android:visibility="gone"                                                                              
+            android:tag="binding_6"                                                                                   
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/attached_files" />
+
+        <ImageView
+            android:id="@+id/attach_file"
+            android:layout_width="@dimen/chat_message_sending_icons_size"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/chat_message_sending_icons_margin"
+            android:contentDescription="@string/content_description_attach_file"
+            android:tag="binding_7"                                                                                                                                               
+                                                        
+            android:paddingTop="@dimen/chat_message_sending_icons_margin"
+            android:paddingBottom="@dimen/chat_message_sending_icons_margin"
+            android:src="@drawable/chat_file"
+            app:layout_constraintHeight_max="@dimen/chat_message_sending_icons_size"
+            app:layout_constraintBottom_toBottomOf="@id/message"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/message" />
+
+        <ImageView
+            android:id="@+id/voice_record"
+            android:layout_width="@dimen/chat_message_sending_icons_size"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/chat_message_sending_icons_margin"
+            android:contentDescription="@string/content_description_voice_recording"
+            android:tag="binding_8"                                               
+                                                            
+            android:paddingTop="@dimen/chat_message_sending_icons_margin"
+            android:paddingBottom="@dimen/chat_message_sending_icons_margin"
+                                                                       
+                                                                             
+            android:src="@drawable/record_audio_message"
+            app:layout_constraintHeight_max="@dimen/chat_message_sending_icons_size"
+            app:layout_constraintBottom_toBottomOf="@id/message"
+            app:layout_constraintStart_toEndOf="@id/attach_file"
+            app:layout_constraintTop_toTopOf="@id/message" />
+
+        <org.linphone.activities.main.chat.views.RichEditText
+            android:id="@+id/message"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/emoji_picker"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/chat_message_sending_icons_margin"
+            android:tag="binding_9"                                                                                                               
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/header_background_color"
+                                                                                                                                                  
+                                                                 
+            android:inputType="textShortMessage|textMultiLine|textAutoComplete|textAutoCorrect|textCapSentences"
+            android:maxLines="6"
+            android:padding="5dp"
+                                                              
+            android:textColor="@color/black_color"
+            android:textCursorDrawable="@null"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/emoji_picker_toggle"
+            app:layout_constraintStart_toEndOf="@id/voice_record"
+            app:layout_constraintTop_toBottomOf="@id/emoji_picker" />
+
+        <ImageView
+            android:id="@+id/emoji_picker_toggle"
+            android:layout_width="@dimen/chat_message_sending_icons_size"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/chat_message_sending_icons_margin"
+            android:tag="binding_10"                                           
+            android:paddingTop="@dimen/chat_message_sending_icons_margin"
+            android:paddingBottom="@dimen/chat_message_sending_icons_margin"
+            android:src="@drawable/emoji"
+            android:background="@color/header_background_color"
+            android:contentDescription="@string/content_description_emoji_picker"
+                                                                        
+                                                                                                        
+            app:layout_constraintHeight_max="@dimen/chat_message_sending_icons_size"
+            app:layout_constraintBottom_toBottomOf="@id/message"
+            app:layout_constraintEnd_toStartOf="@id/send_message"
+            app:layout_constraintTop_toTopOf="@id/message" />
+
+        <ImageView
+            android:id="@+id/send_message"
+            android:layout_width="@dimen/chat_message_sending_icons_size"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/chat_message_sending_icons_margin"
+            android:contentDescription="@string/content_description_send_message"
+            android:tag="binding_11"                                                                                             
+                                                                         
+            android:paddingTop="@dimen/chat_message_sending_icons_margin"
+            android:paddingBottom="@dimen/chat_message_sending_icons_margin"
+            android:src="@drawable/chat_send_message"
+            app:layout_constraintHeight_max="@dimen/chat_message_sending_icons_size"
+            app:layout_constraintBottom_toBottomOf="@id/message"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/message" />
+
+        <ImageView
+            android:id="@+id/send_ephemeral_message"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:clickable="false"
+            android:contentDescription="@string/content_description_ephemeral_message"
+            android:tag="binding_12"                                    
+            android:padding="5dp"
+            android:src="@drawable/ephemeral_messages"
+            android:visibility="gone"                                                                                                                           
+            app:layout_constraintBottom_toBottomOf="@id/send_message"
+            app:layout_constraintEnd_toEndOf="@id/send_message" />
+
+        <View
+            android:id="@+id/attaching_files_in_progress_background"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#99c4c4c4"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="gone"                                                                                    
+            app:layout_constraintBottom_toBottomOf="@id/emoji_picker"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/emoji_picker"  android:tag="binding_13"/>
+
+        <ProgressBar
+            android:id="@+id/attaching_files_in_progress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/icon_spinner_rotating"
+            android:indeterminateTint="?attr/accentColor"
+            android:visibility="gone"                                                                                    
+            app:layout_constraintBottom_toTopOf="@id/attaching_files_in_progress_label"
+            app:layout_constraintEnd_toEndOf="@id/attaching_files_in_progress_background"
+            app:layout_constraintStart_toStartOf="@id/attaching_files_in_progress_background"
+            app:layout_constraintTop_toBottomOf="@id/emoji_picker"  android:tag="binding_14"/>
+
+        <TextView
+            android:id="@+id/attaching_files_in_progress_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/operation_in_progress_wait"
+            android:textColor="@color/primary_color"
+            android:textStyle="bold"
+            android:visibility="gone"                                                                                    
+            app:layout_constraintBottom_toTopOf="@id/emoji_picker"
+            app:layout_constraintEnd_toEndOf="@id/attaching_files_in_progress_background"
+            app:layout_constraintStart_toStartOf="@id/attaching_files_in_progress_background"
+            app:layout_constraintTop_toBottomOf="@id/attaching_files_in_progress"  android:tag="binding_15"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+         

@@ -1,0 +1,12 @@
+[90mF:\ArtPhone 1.0\app\src\main\java\org\linphone\activities\[0mNavigation.kt[90m:[0m33[90m:1:[0m Wildcard import [90m(no-wildcard-imports)[0m
+[90mF:\ArtPhone 1.0\app\src\main\java\org\linphone\activities\[0mNavigation.kt[90m:[0m39[90m:1:[0m Wildcard import [90m(no-wildcard-imports)[0m
+[90mF:\ArtPhone 1.0\app\src\main\java\org\linphone\activities\[0mNavigation.kt[90m:[0m47[90m:1:[0m Wildcard import [90m(no-wildcard-imports)[0m
+[90mF:\ArtPhone 1.0\app\src\main\java\org\linphone\activities\[0mNavigation.kt[90m:[0m50[90m:1:[0m Wildcard import [90m(no-wildcard-imports)[0m
+[90mF:\ArtPhone 1.0\app\src\main\java\org\linphone\activities\[0mNavigation.kt[90m:[0m115[90m:1:[0m Exceeded max line length (100) [90m(max-line-length)[0m
+[90mF:\ArtPhone 1.0\app\src\main\java\org\linphone\activities\[0mNavigation.kt[90m:[0m129[90m:1:[0m Exceeded max line length (100) [90m(max-line-length)[0m
+[90mF:\ArtPhone 1.0\app\src\main\java\org\linphone\activities\[0mNavigation.kt[90m:[0m204[90m:1:[0m Exceeded max line length (100) [90m(max-line-length)[0m
+[90mF:\ArtPhone 1.0\app\src\main\java\org\linphone\activities\[0mNavigation.kt[90m:[0m212[90m:1:[0m Exceeded max line length (100) [90m(max-line-length)[0m
+[90mF:\ArtPhone 1.0\app\src\main\java\org\linphone\activities\[0mNavigation.kt[90m:[0m214[90m:1:[0m Exceeded max line length (100) [90m(max-line-length)[0m
+[90mF:\ArtPhone 1.0\app\src\main\java\org\linphone\activities\[0mNavigation.kt[90m:[0m585[90m:1:[0m Exceeded max line length (100) [90m(max-line-length)[0m
+[90mF:\ArtPhone 1.0\app\src\main\java\org\linphone\activities\[0mNavigation.kt[90m:[0m889[90m:1:[0m Exceeded max line length (100) [90m(max-line-length)[0m
+[90mF:\ArtPhone 1.0\app\src\main\java\org\linphone\activities\[0mNavigation.kt[90m:[0m899[90m:1:[0m Exceeded max line length (100) [90m(max-line-length)[0m

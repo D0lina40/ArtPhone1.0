@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "org.linphone.app-mergeDebugResources-62:/layout-sw600dp-v13/dialer_fragment.xml",
+        "source": "org.linphone.app-main-65:/layout-sw600dp/dialer_fragment.xml"
+    }
+]

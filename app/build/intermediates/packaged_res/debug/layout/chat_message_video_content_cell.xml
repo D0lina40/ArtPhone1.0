@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                               
+
+    
+                                           
+                                                           
+                 
+                       
+                                                                                   
+                 
+                                    
+                                                          
+                 
+                                     
+                             
+           
+
+    <RelativeLayout
+                                                  
+                                                  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+                                                  
+                                        
+        android:background="?attr/backgroundColor" android:tag="layout/chat_message_video_content_cell_0" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            style="@style/chat_file_attachment_font"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="middle"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:drawablePadding="5dp"
+            android:text="test.mkv"                            
+            app:drawableTopCompat="@drawable/file_video"  android:tag="binding_1"/>
+
+        <ImageView
+            android:contentDescription="@string/content_description_downloaded_file_transfer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="@dimen/chat_message_bubble_image_height_big"
+            android:tag="binding_2"                                                        
+                                               
+                                                                                            
+            android:adjustViewBounds="true" />
+
+    </RelativeLayout>
+
+         

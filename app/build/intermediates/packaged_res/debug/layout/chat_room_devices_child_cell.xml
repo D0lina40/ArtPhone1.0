@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    
+                                          
+                 
+                       
+                                                                                 
+           
+
+    <RelativeLayout
+                                                 
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="?attr/backgroundColor2"
+        android:gravity="center_vertical" android:tag="layout/chat_room_devices_child_cell_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <org.linphone.views.MarqueeTextView
+            android:tag="binding_1"          
+            style="@style/contact_name_list_cell_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/security_level"
+            android:singleLine="true" />
+
+        <ImageView
+            android:id="@+id/security_level"
+            android:src="@drawable/security_alert_indicator"                                   
+            android:tag="binding_2"                                        
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="?attr/dividerColor" />
+
+    </RelativeLayout>
+
+         

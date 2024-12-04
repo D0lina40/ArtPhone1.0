@@ -1,0 +1,2914 @@
+[
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_file_picture.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\file_picture.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_chat_start_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\chat_start_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_activity_login.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_conference_scheduling_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\conference_scheduling_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_send_message.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_send_message.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_dialer_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\dialer_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_round_orange_button_background_default.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\round_orange_button_background_default.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_contact_selected_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\contact_selected_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_pause.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_pause.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_call_screenshot.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_call_screenshot.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_settings_contacts.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\settings_contacts.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_call_header_outgoing.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_call_header_outgoing.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_rect_gray_button.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_rect_gray_button.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-hdpi_topbar_service_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-hdpi\\topbar_service_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_calls_list.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_calls_list.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_file_video_viewer_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\file_video_viewer_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_settings_call_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_call_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_topbar_missed_call_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\topbar_missed_call_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_menu.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\menu.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_round_dark_gray_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_round_dark_gray_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_room_menu_mute_notifications.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_room_menu_mute_notifications.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_check_selected.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\check_selected.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_message_reply_content_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_reply_content_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_message_image_content_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_image_content_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_message_conference_invitation_content_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_conference_invitation_content_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_remote_recording.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_remote_recording.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_remote_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_remote_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_screenshot.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_screenshot.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_call_quality_indicator_2.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\call_quality_indicator_2.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_record_stop_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\record_stop_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_menu_group_info_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\menu_group_info_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_menu_copy_text.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\menu_copy_text.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_bubble_reply_file_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_bubble_reply_file_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_round_gray_background_with_orange_border.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_round_gray_background_with_orange_border.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_settings_network.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\settings_network.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_contact_add.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\contact_add.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_call_stats.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_call_stats.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_topbar_service_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\topbar_service_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_call_participants.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_call_participants.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_audio_only_remote_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_audio_only_remote_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_file_audio.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\file_audio.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-hdpi_topbar_missed_call_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-hdpi\\topbar_missed_call_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_led_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\led_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_conference_active_speaker.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_active_speaker.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_chat_delivered.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\chat_delivered.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_call_list_menu.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_call_list_menu.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\navigation_settings_nav_graph.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\navigation\\settings_nav_graph.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_status_led_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\status_led_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_field_add.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\field_add.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_rect_light_gray_button.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_rect_light_gray_button.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_bubble_outgoing_split_2.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_bubble_outgoing_split_2.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_contacts_sip_artphone.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\contacts_sip_artphone.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_micro_on.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_micro_on.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_dialog_handle.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_dialog_handle.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_menu_pressed_background_color.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\menu_pressed_background_color.xml"
+    },
+    {
+        "merged": "org.linphone.app-merged_res-63:/navigation_main_nav_graph.xml.flat",
+        "source": "org.linphone.app-main-65:/navigation/main_nav_graph.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_menu_copy_text_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\menu_copy_text_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_menu_forward.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\menu_forward.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_file_video_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\file_video_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_call_quality_indicator_0.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\call_quality_indicator_0.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_conference_active_speaker_border.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_conference_active_speaker_border.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_bluetooth.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_bluetooth.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_numpad_seven.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\numpad_seven.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_button_toggle_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\button_toggle_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_footer_button.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\footer_button.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_resizable_assistant_button_default.9.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\resizable_assistant_button_default.9.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_background_round_primary_color.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\background_round_primary_color.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_multiple_contacts_avatar.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_multiple_contacts_avatar.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_chat_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_chat_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_edit.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_edit.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_ephemeral_messages_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\ephemeral_messages_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout-land_conference_waiting_room_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout-land\\conference_waiting_room_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_call_outgoing_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_call_outgoing_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chevron_list_close.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chevron_list_close.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_contacts_all.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\contacts_all.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_assistant_country_picker_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_country_picker_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_call.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_call.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_round_button_pressed.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_round_button_pressed.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_numpad_6.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_numpad_6.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_search.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\search.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_bubble_incoming_split_3.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_bubble_incoming_split_3.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_conference_play_big.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_conference_play_big.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_edit.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\edit.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_file_audio_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\file_audio_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_vector_linphone_logo.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\vector_linphone_logo.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_settings_call.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\settings_call.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_spinner_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_spinner_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_call_answer_pressed_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_call_answer_pressed_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_numpad_star.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\numpad_star.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_menu_ephemeral_messages_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\menu_ephemeral_messages_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_message_audio_record_progress.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_message_audio_record_progress.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_toggle_mic.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_toggle_mic.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_spinner.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_spinner.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-mdpi_topbar_service_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-mdpi\\topbar_service_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_bubble_reply_incoming_indicator.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_bubble_reply_incoming_indicator.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_call_stats_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_call_stats_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_valid.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\valid.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_conference_active_speaker.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_conference_active_speaker.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_share.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_share.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_ephemeral_message.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_ephemeral_message.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_generic_list_header.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\generic_list_header.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_cancel_alt.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_cancel_alt.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout-land_main_activity_content.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout-land\\main_activity_content.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_field_add_shape.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\field_add_shape.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_menu_about_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\menu_about_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_call_numpad_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_call_numpad_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_message_audio_record_preview_progress.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_message_audio_record_preview_progress.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_file_pdf_viewer_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\file_pdf_viewer_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_message_reply.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_reply.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_dialog_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_dialog_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_assistant_phone_account_linking_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_phone_account_linking_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_record_pause_light.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\record_pause_light.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_toggle_disabled_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_toggle_disabled_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_settings_contacts_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\settings_contacts_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_toggle_camera.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_toggle_camera.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_buttons_audio_routes.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_buttons_audio_routes.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_cancel.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_cancel.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_audio_only_me_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_audio_only_me_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_bubble_incoming_split_1.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_bubble_incoming_split_1.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_led_registration_in_progress.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\led_registration_in_progress.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_numpad_three.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\numpad_three.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout-land_voip_numpad.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout-land\\voip_numpad.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_field_clean.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\field_clean.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_bluetooth.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_bluetooth.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\navigation_main_nav_graph.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\navigation\\main_nav_graph.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_button_pressed_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_button_pressed_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_list_details_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\list_details_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_numpad_8.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_numpad_8.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_menu_security_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\menu_security_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_settings_tunnel_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_tunnel_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_deselect_all_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\deselect_all_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_rect_green_button.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_rect_green_button.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_conference_call_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_call_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_dropdown.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_dropdown.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_settings_advanced_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\settings_advanced_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_room_menu_delete.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_room_menu_delete.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_led_registered.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\led_registered.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_record_play_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\record_play_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_video_conf_new.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_video_conf_new.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_call_recording_on_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_call_recording_on_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_file_video.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\file_video.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_ephemeral_messages.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\ephemeral_messages.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\xml_shortcuts.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\xml\\shortcuts.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_contact_list_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\contact_list_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_chat_file_over.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\chat_file_over.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voicemail.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voicemail.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_conference_schedule_list_header.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\conference_schedule_list_header.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_field_remove_default.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\field_remove_default.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\navigation_assistant_nav_graph.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\navigation\\assistant_nav_graph.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_round_dark_gray_background_with_orange_border.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_round_dark_gray_background_with_orange_border.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_audio_recording_reply_preview_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\audio_recording_reply_preview_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_file_pdf_viewer_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\file_pdf_viewer_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_numpad_2.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_numpad_2.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout-sw600dp_dialer_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout-sw600dp\\dialer_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_menu_assistant.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\menu_assistant.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_button_round_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\button_round_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout-w936dp_activity_login.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout-w936dp\\activity_login.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_call_more.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_call_more.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_call_quality_indicator_4.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\call_quality_indicator_4.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_record_audio_message_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\record_audio_message_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_forwarded_message_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\forwarded_message_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_emoji.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\emoji.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_spinner.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_spinner.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_room_ephemeral_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_ephemeral_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_call_more.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_call_more.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_contacts_all_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\contacts_all_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_resizable_assistant_button.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\resizable_assistant_button.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_next_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\next_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_unread_message_count_bg.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\unread_message_count_bg.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_record_play_light.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\record_play_light.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_contact_master_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\contact_master_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_room_menu_add_contact.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_room_menu_add_contact.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_single_contact_avatar.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_single_contact_avatar.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_call_hangup.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\call_hangup.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_button_background_light.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\button_background_light.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_event_decoration_gray.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\event_decoration_gray.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_call_record.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_call_record.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_logoartphone.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\logoartphone.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-mdpi_topbar_missed_call_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-mdpi\\topbar_missed_call_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_settings_conferences_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\settings_conferences_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_video_conf_history_filter.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_video_conf_history_filter.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_rect_orange_button.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_rect_orange_button.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_file_config_viewer_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\file_config_viewer_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_label.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\label.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_menu_contact.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\menu_contact.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-hdpi_topbar_call_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-hdpi\\topbar_call_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_conference_waiting_room_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\conference_waiting_room_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_call_context_menu.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_call_context_menu.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_history_detail_background_pressed.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\history_detail_background_pressed.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_room_group_info_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_group_info_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_select_all.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\select_all.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_history_detail_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\history_detail_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_footer_dialer.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\footer_dialer.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_camera_off.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_camera_off.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_settings_ldap_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_ldap_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_assistant_button.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\assistant_button.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_assistant_phone_account_creation_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_phone_account_creation_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\navigation_call_nav_graph.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\navigation\\call_nav_graph.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_call_incoming.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\call_incoming.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_settings_advanced.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\settings_advanced.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_call_camera_switch.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_call_camera_switch.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_chat_group_add_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\chat_group_add_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xxhdpi_topbar_call_paused_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xxhdpi\\topbar_call_paused_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_settings_ldap_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_ldap_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_bubble_incoming_reactions.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_bubble_incoming_reactions.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_earpiece.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_earpiece.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_history_all_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\history_all_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_room_menu_meeting.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_room_menu_meeting.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_list_edit_top_bar_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\list_edit_top_bar_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_audio_routes.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_audio_routes.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_calls_list_menu.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_calls_list_menu.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_copy.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_copy.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_round_button.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_round_button.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_buttons_outgoing.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_buttons_outgoing.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_call_numpad.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_call_numpad.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_settings_contacts_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_contacts_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_check_unselected.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\check_unselected.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_orange_circle.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_orange_circle.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_single_call_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_single_call_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_menu_recordings_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\menu_recordings_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_assistant_phone_account_validation_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_phone_account_validation_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_history_missed_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\history_missed_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_audio_routes.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_audio_routes.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_remote_recording.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_remote_recording.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_delete.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_delete.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_own_reaction_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_own_reaction_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\color_voip_extra_button_text_color.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\color\\voip_extra_button_text_color.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_conference_participant_remote_active_speaker_miniature.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_participant_remote_active_speaker_miniature.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_speaker_on.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_speaker_on.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_numpad_four.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\numpad_four.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_audio_recording_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\audio_recording_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_security_ok.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\security_ok.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_menu_options_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\menu_options_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_assistant_welcome_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_welcome_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_call_popup_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_call_popup_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_room_menu_ephemeral.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_room_menu_ephemeral.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_chat_read.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\chat_read.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_numpad_6.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\numpad_6.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_delete_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\delete_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_cancel.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\cancel.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_spinner_rotating.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_spinner_rotating.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_message_voice_recording_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_message_voice_recording_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_call_paused_by_remote.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_call_paused_by_remote.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_file.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\file.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_message_reactions_list_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_reactions_list_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_led_error.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\led_error.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_chat_new_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\chat_new_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_bubble_outgoing_reactions.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_bubble_outgoing_reactions.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_field_add_disabled.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\field_add_disabled.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_button_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\button_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_field_clean_over.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\field_clean_over.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_new.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_new.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_file_pdf_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\file_pdf_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_button_call_terminate_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\button_call_terminate_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_chat_rooms_list.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_chat_rooms_list.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_room_menu_unmute_notifications.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_room_menu_unmute_notifications.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_splashscreen_branding.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\splashscreen_branding.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xxhdpi_topbar_service_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xxhdpi\\topbar_service_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_transparent_reaction_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_transparent_reaction_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_schedule_participants.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_schedule_participants.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_artphone_96x96.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\artphone_96x96.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_about_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\about_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_pause.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_pause.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_forwarded_message.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_forwarded_message.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_button_green_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\button_green_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_led_away.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\led_away.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_room_imdn_participant_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_imdn_participant_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_footer_chat.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\footer_chat.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_single_contact_avatar_alt.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_single_contact_avatar_alt.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_history_detail_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\history_detail_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_field_add_default.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\field_add_default.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_call_back.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\call_back.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout-land_about_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout-land\\about_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_fullscreen_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\fullscreen_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_video_conf_incoming.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_video_conf_incoming.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_toggle_speaker.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_toggle_speaker.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_hangup.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_hangup.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xxxhdpi_topbar_missed_call_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xxxhdpi\\topbar_missed_call_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_settings_advanced_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_advanced_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_info_selected.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_info_selected.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_file_text_viewer_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\file_text_viewer_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_info.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_info.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_call_status_incoming.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\call_status_incoming.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_delete.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_delete.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_room_master_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_master_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_message_video_content_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_video_content_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_numpad_7.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\numpad_7.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_buttons_incoming.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_buttons_incoming.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_background.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\background.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_call_stats.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_call_stats.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_background_red.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\background_red.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_recording_play_pause.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\recording_play_pause.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_dialog_info.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_dialog_info.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_message_reply_bubble.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_reply_bubble.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_assistant_activity.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_activity.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_room_creation_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_creation_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_menu_more.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_menu_more.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_settings_conferences.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\settings_conferences.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_assistant_generic_account_login_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_generic_account_login_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_call_start_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\call_start_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_conference_participant_remote_audio_only.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_participant_remote_audio_only.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_settings_conferences_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_conferences_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_call_overlay.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\call_overlay.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_conference_schedule_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\conference_schedule_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_numpad_8.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\numpad_8.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_numpad_4.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_numpad_4.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_round_button_disabled.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_round_button_disabled.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_conference_layout_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_layout_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_settings_account_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_account_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xxhdpi_topbar_missed_call_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xxhdpi\\topbar_missed_call_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_bubble_reply_outgoing_indicator.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_bubble_reply_outgoing_indicator.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_call_add.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_call_add.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_call_quality_indicator_1.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\call_quality_indicator_1.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_settings_widget_switch_and_text.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_widget_switch_and_text.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout-land_voip_conference_grid.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout-land\\voip_conference_grid.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_quit_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\quit_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_valid_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\valid_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-mdpi_topbar_videocall_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-mdpi\\topbar_videocall_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_settings_video_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\settings_video_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_multiple_contacts_avatar_alt.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_multiple_contacts_avatar_alt.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\navigation_chat_nav_graph.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\navigation\\chat_nav_graph.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_menu_delete.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\menu_delete.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xxhdpi_topbar_videocall_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xxhdpi\\topbar_videocall_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_history_conf_detail_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\history_conf_detail_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_room_menu_group_info.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_room_menu_group_info.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_side_menu_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\side_menu_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_conference_scheduling_participant_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\conference_scheduling_participant_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_settings_audio_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_audio_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_field_remove_disabled.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\field_remove_disabled.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xxxhdpi_topbar_call_paused_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xxxhdpi\\topbar_call_paused_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_call_participants.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_call_participants.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_numpad_5.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_numpad_5.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_buttons.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_buttons.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_round_red_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_round_red_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_call_incoming_notification_heads_up.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\call_incoming_notification_heads_up.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_conference_participants_add_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_participants_add_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_multiple_contacts_avatar.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_multiple_contacts_avatar.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_contact_selection_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\contact_selection_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_field_remove.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\field_remove.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_call_terminate_pressed_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_call_terminate_pressed_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_led_do_not_disturb.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\led_do_not_disturb.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_assistant_echo_canceller_calibration_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_echo_canceller_calibration_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\mipmap-xhdpi_linphone_launcher_icon_foreground.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\mipmap-xhdpi\\linphone_launcher_icon_foreground.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_call_header_incoming.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_call_header_incoming.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_security_2_indicator.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\security_2_indicator.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_linphone_logo.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\linphone_logo.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_room_imdn_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_imdn_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_security_toggle_icon_grey.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\security_toggle_icon_grey.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_record_pause_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\record_pause_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xxhdpi_topbar_chat_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xxhdpi\\topbar_chat_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_history_all.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\history_all.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_conference_schedule_calendar_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\conference_schedule_calendar_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_artphone_launcher_icon_foreground.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\artphone_launcher_icon_foreground.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\xml_contacts.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\xml\\contacts.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_settings_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_field_add_over.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\field_add_over.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_call_audio_start.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\call_audio_start.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_numpad_hash.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\numpad_hash.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_deselect_all.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\deselect_all.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_settings_widget_basic.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_widget_basic.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_event_list_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_event_list_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_contact_detail_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\contact_detail_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_conference_participants_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_participants_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_numpad_two.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\numpad_two.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_call_chat_rooms.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_call_chat_rooms.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_button_background_dark.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\button_background_dark.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-hdpi_topbar_chat_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-hdpi\\topbar_chat_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_merge_calls_local_conference.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_merge_calls_local_conference.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_call_video_start.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\call_video_start.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_call_quality_indicator_3.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\call_quality_indicator_3.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_call_alt_start_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\call_alt_start_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_topbar_call_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\topbar_call_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_numpad_7.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_numpad_7.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_main_activity.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\main_activity.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_activity_login1.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\activity_login1.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_button_conference_info.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\button_conference_info.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_numpad_eight.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\numpad_eight.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_toggle_pressed_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_toggle_pressed_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_call_chat.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_call_chat.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\mipmap-xxxhdpi_linphone_launcher_icon_foreground.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\mipmap-xxxhdpi\\linphone_launcher_icon_foreground.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_speaker.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_speaker.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_divider.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\divider.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_footer_history.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\footer_history.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_info.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_info.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_button_call_recording_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\button_call_recording_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\xml_sync_adapter.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\xml\\sync_adapter.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_room_devices_group_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_devices_group_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_bubble_outgoing_split_3.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_bubble_outgoing_split_3.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_contacts_sip.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\contacts_sip.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_room_menu_devices.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_room_menu_devices.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\mipmap-mdpi_linphone_launcher_icon_foreground.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\mipmap-mdpi\\linphone_launcher_icon_foreground.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_security_alert_indicator.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\security_alert_indicator.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_cancel.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_cancel.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_elemental_default_artphone.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\elemental_default_artphone.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_settings_chat_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\settings_chat_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_edittext_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_edittext_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_round_orange_button_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\round_orange_button_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_call_status_outgoing.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\call_status_outgoing.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_numpad_hash.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_numpad_hash.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_led_online.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\led_online.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_mic_muted.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_mic_muted.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_emoji_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\emoji_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_round_orange_button_background_disabled.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\round_orange_button_background_disabled.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_security_pending.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\security_pending.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_round_recording_button_background_light.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\round_recording_button_background_light.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-hdpi_topbar_call_paused_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-hdpi\\topbar_call_paused_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_numpad_9.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\numpad_9.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\xml_locales_config.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\xml\\locales_config.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_status_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\status_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_schedule_time.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_schedule_time.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_call_header_active.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_call_header_active.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_room_ephemeral_duration_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_ephemeral_duration_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-mdpi_topbar_call_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-mdpi\\topbar_call_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout-land_voip_conference_active_speaker.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout-land\\voip_conference_active_speaker.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_menu_reply_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\menu_reply_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_numpad_9.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_numpad_9.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_call_recording_off_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_call_recording_off_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_settings_widget_list.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_widget_list.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_history_missed.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\history_missed.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_footer_contacts.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\footer_contacts.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_group_add.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_group_add.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_record_stop_light.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\record_stop_light.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_assistant_country_picker_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_country_picker_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_toggle_off_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_toggle_off_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_record_play_dark.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\record_play_dark.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_message_reaction.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_reaction.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_extra_buttons_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_extra_buttons_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_assistant_email_account_creation_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_email_account_creation_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_video_play_button.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\video_play_button.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_edit.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_edit.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_conference_paused.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_paused.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_field_clean_shape.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\field_clean_shape.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\mipmap-xxhdpi_linphone_launcher_icon_foreground.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\mipmap-xxhdpi\\linphone_launcher_icon_foreground.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_remote_recording_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_remote_recording_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_conferences_scheduled_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\conferences_scheduled_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\navigation_contacts_nav_graph.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\navigation\\contacts_nav_graph.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_edit_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\edit_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_round_button_background_default.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\round_button_background_default.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_settings_video_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_video_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_call.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\call.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_file_viewer_top_bar_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\file_viewer_top_bar_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-hdpi_topbar_videocall_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-hdpi\\topbar_videocall_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_camera_on.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_camera_on.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xxxhdpi_topbar_call_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xxxhdpi\\topbar_call_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_micro_off.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_micro_off.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_scroll_to_bottom_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\scroll_to_bottom_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_group_new.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_group_new.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_contacts_sip_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\contacts_sip_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_conference_participant_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_participant_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_contact_detail_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\contact_detail_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_call_add.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_call_add.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_recording_list_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\recording_list_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-mdpi_topbar_call_paused_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-mdpi\\topbar_call_paused_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_round_orange_button_background_over.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\round_orange_button_background_over.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_led_not_registered.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\led_not_registered.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_bubble_incoming_split_2.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_bubble_incoming_split_2.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_menu_options.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\menu_options.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_numpad_3.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_numpad_3.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_numpad_0.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\numpad_0.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout-land_assistant_welcome_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout-land\\assistant_welcome_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_export.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_export.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_imdn_list_header.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\imdn_list_header.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_menu_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\menu_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_file_image_viewer_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\file_image_viewer_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_unread_messages_list_header.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_unread_messages_list_header.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_me_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_me_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_rect_orange_disabled_button.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_rect_orange_disabled_button.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_conference_grid.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_grid.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_mandatory.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_mandatory.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xxxhdpi_topbar_chat_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xxxhdpi\\topbar_chat_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_conference_schedule_participants_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\conference_schedule_participants_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_menu_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\menu_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_assistant_top_bar_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_top_bar_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_call_answer_video.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_call_answer_video.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xxxhdpi_topbar_service_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xxxhdpi\\topbar_service_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_call_answer_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_call_answer_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_speaker_off.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_speaker_off.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_avatar_border.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\avatar_border.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_meeting_schedule.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_meeting_schedule.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_menu_imdn_info.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\menu_imdn_info.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_earpiece.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_earpiece.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_collapse_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\collapse_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_remote_paused_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_remote_paused_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\color_light_primary_text_color.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\color\\light_primary_text_color.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_room_devices_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_devices_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_bubble_activity.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_bubble_activity.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_conference.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_conference.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\xml_motion_main_activity_tabs_selector.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\xml\\motion_main_activity_tabs_selector.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_back.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\back.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_security_toggle_icon_green.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\security_toggle_icon_green.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_single_contact_avatar.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_single_contact_avatar.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_call_add.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\call_add.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_call_stats.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_call_stats.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_message_attachment_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_attachment_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_numpad_five.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\numpad_five.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_numpad_5.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\numpad_5.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_linphone_logo_tinted.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\linphone_logo_tinted.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_room_list_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_list_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_menu_add_contact.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\menu_add_contact.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_settings_widget_switch.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_widget_switch.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_numpad_zero.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\numpad_zero.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_button_call_numpad_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\button_call_numpad_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_conference_audio_only_border.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_conference_audio_only_border.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_info.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\info.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_room_menu.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_menu.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_hidden_unread_message_count_bg.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\hidden_unread_message_count_bg.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_calls_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_calls_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_conference_layout_active_speaker.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_conference_layout_active_speaker.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_file_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\file_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_topbar_call_paused_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\topbar_call_paused_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_dialog.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\dialog.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_field_remove_shape.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\field_remove_shape.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_call_answer.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_call_answer.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_file_picture_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\file_picture_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_delete.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\delete.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_menu_about.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\menu_about.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_menu_recordings.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\menu_recordings.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_call_transfer.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\call_transfer.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_message_downloadable_file_content_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_downloadable_file_content_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_security_ko.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\security_ko.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_plus.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\plus.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_chat_error.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\chat_error.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_menu_reply.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\menu_reply.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_conference_layout_audio_only.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_conference_layout_audio_only.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_dialer_background.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\dialer_background.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_call_numpad_pressed_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_call_numpad_pressed_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_call_alt_start.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\call_alt_start.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_label_small.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\label_small.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\xml_authenticator.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\xml\\authenticator.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_side_menu_account_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\side_menu_account_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_bubble_incoming_full.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_bubble_incoming_full.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_field_clean_default.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\field_clean_default.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_bubble_outgoing_split_1.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_bubble_outgoing_split_1.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_round_recording_button_background_dark.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\round_recording_button_background_dark.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_room_detail_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_detail_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_record_play_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\record_play_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout-sw533dp-land_dialer_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout-sw533dp-land\\dialer_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_copy.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_copy.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_wait_layout.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\wait_layout.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_assistant_account_login_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_account_login_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_numpad_3.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\numpad_3.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_chat_group_new_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\chat_group_new_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_menu_notifications_off.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\menu_notifications_off.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_ellipse.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\ellipse.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_logoartphone_30x30.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\logoartphone_30x30.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_resizable_assistant_button_disabled.9.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\resizable_assistant_button_disabled.9.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_settings_network_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\settings_network_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_call_hangup.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_call_hangup.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_rect_orange_button.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\rect_orange_button.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_contact_sync_account_picker_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\contact_sync_account_picker_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_call_chat.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_call_chat.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_forward_message_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\forward_message_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_call_numpad.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_call_numpad.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_call_status_missed.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\call_status_missed.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_room_sending.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_sending.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_assistant_button_text_color.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\assistant_button_text_color.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_room_devices_child_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_devices_child_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout-land_dialer_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout-land\\dialer_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_menu_delete_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\menu_delete_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_dialog_delete_icon.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\dialog_delete_icon.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chevron_list_open.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chevron_list_open.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_call_header_paused.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_call_header_paused.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_contact_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\contact_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_settings_chat.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\settings_chat.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_contact_sync_account_picker_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\contact_sync_account_picker_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_calls_list.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_calls_list.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_settings_account_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_account_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout-w1240dp_activity_login.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout-w1240dp\\activity_login.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_numpad.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\numpad.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xxhdpi_topbar_call_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xxhdpi\\topbar_call_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_conference_layout_grid.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_conference_layout_grid.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_numpad_4.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\numpad_4.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_change_camera.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_change_camera.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_security_post_quantum.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\security_post_quantum.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_file.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_file.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_remote_video_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_remote_video_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_meeting_schedule.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_meeting_schedule.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_bubble_outgoing_full.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_bubble_outgoing_full.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_button_background_reverse.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\button_background_reverse.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_conference_participant_broadcast_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_participant_broadcast_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_call_terminate_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_call_terminate_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_camera_switch.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\camera_switch.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_record_pause_dark.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\record_pause_dark.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_contact.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\contact.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_toggle_on_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_toggle_on_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_assistant_no_push_warning_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_no_push_warning_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_file_audio_viewer_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\file_audio_viewer_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_audio_routes_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_audio_routes_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_record_play.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\record_play.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_menu_notifications_on.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\menu_notifications_on.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_topbar_chat_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\topbar_chat_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_numpad_1.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_numpad_1.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_settings_call_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\settings_call_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_merge_calls.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_merge_calls.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\xml_motion_main_activity_tabs_selector_land.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\xml\\motion_main_activity_tabs_selector_land.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_message_content_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_content_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_button_call_answer_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\button_call_answer_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_numpad_star.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_numpad_star.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_chevron_list_close_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\chevron_list_close_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_button_disabled_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_button_disabled_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_call_outgoing.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\call_outgoing.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_conference_invite_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_conference_invite_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_scroll_to_bottom.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\scroll_to_bottom.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_cancel_shape.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\cancel_shape.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_settings_audio_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\settings_audio_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_call_forward.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_call_forward.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_numpad_0.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_numpad_0.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_main_activity_content.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\main_activity_content.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_numpad_nine.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\numpad_nine.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_topbar_videocall_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\topbar_videocall_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_call_forward.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_call_forward.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_history_list_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\history_list_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_list_details.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\list_details.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\mipmap-hdpi_linphone_launcher_icon_foreground.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\mipmap-hdpi\\linphone_launcher_icon_foreground.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_apply.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_apply.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_call_missed.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\call_missed.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\xml_provider_paths.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_resizable_text_field.9.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\resizable_text_field.9.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_menu_assistant_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\menu_assistant_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_chat_send_over.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\chat_send_over.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_settings_widget_text.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_widget_text.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_chat_group_delete.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\chat_group_delete.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_message_reactions_list_dialog.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_reactions_list_dialog.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_file_pdf.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\file_pdf.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_call_back_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\call_back_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_resizable_assistant_button_over.9.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\resizable_assistant_button_over.9.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_call_paused.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_call_paused.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_conference_paused_big.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_conference_paused_big.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_menu_background_color.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\menu_background_color.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_bubble_reply_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_bubble_reply_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_contact_add_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\contact_add_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_conference_schedule_time_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\conference_schedule_time_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_calls_list_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_calls_list_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_conference_scheduling_participants_list_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\conference_scheduling_participants_list_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_button_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_button_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_tabs_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\tabs_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_recordings_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\recordings_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_menu_more.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_menu_more.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_button_call_context_menu_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\button_call_context_menu_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_assistant_generic_account_warning_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_generic_account_warning_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_empty_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\empty_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_history_detail_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\history_detail_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_round_button_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\round_button_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_activity.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_activity.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xxxhdpi_topbar_videocall_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xxxhdpi\\topbar_videocall_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_round_red_background_with_orange_border.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_round_red_background_with_orange_border.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_conference_scheduling_summary_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\conference_scheduling_summary_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_menu_meeting_schedule.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\menu_meeting_schedule.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_contact_editor_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\contact_editor_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_conference_creation_pending_wait_layout.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_creation_pending_wait_layout.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\color_dark_primary_text_color.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\color\\dark_primary_text_color.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_call_record.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_call_record.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_room_group_info_participant_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_group_info_participant_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_chevron_list_open_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\chevron_list_open_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\navigation_history_nav_graph.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\navigation\\history_nav_graph.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_numpad_one.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\numpad_one.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_select_all_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\select_all_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_dialog.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_dialog.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_conference_audio_only.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_conference_audio_only.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_replied_message_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\replied_message_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_backspace.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\backspace.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_record_audio_message.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\record_audio_message.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_message_reply_preview_content_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_reply_preview_content_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_history_master_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\history_master_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_backspace_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\backspace_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_settings_network_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_network_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_message_list_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_list_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_call_incoming_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_call_incoming_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_assistant_remote_provisioning_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_remote_provisioning_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_numpad_1.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\numpad_1.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_camera_switch_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\camera_switch_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_numpad_six.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\numpad_six.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_conference_participant_remote_grid.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_participant_remote_grid.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_button_orange_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\button_orange_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_generated_avatar_bg.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\generated_avatar_bg.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_event_decoration_red.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\event_decoration_red.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_round_gray_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_round_gray_background.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_conference_incoming_participant_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_incoming_participant_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_menu_forward_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\menu_forward_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_field_remove_over.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\field_remove_over.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_status_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_status_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_message_voice_record_content_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_voice_record_content_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_button_toggle_background_reverse.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\button_toggle_background_reverse.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_settings_chat_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_chat_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_call_stat_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_call_stat_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-mdpi_topbar_chat_notification.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-mdpi\\topbar_chat_notification.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_next.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_next.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_numpad_sharp.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\numpad_sharp.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_background_round_secondary_color.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\background_round_secondary_color.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_call_header_active_.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_call_header_active_.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_security_1_indicator.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\security_1_indicator.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_numpad_2.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\numpad_2.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_numpad_star_digit.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\numpad_star_digit.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_settings_audio.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\settings_audio.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_contact_number_address_editor_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\contact_number_address_editor_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_message_long_press_menu.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_long_press_menu.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_buttons_extra.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_buttons_extra.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_message_generic_file_content_cell.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_generic_file_content_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_replied_message.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_replied_message.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_assistant_email_account_validation_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_email_account_validation_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_numpad.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_numpad.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_linphone_app_name_logo.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\linphone_app_name_logo.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_schedule_date.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_schedule_date.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_list_detail.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\list_detail.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_remote_recording_.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_remote_recording_.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_settings_video.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\settings_video.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_assistant_qr_code_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_qr_code_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_chat_message_voice_recording.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_voice_recording.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_chat_room_menu_view_contact.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\chat_room_menu_view_contact.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_icon_edit_alt.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\icon_edit_alt.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout_voip_conference_audio_only.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_audio_only.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\xml_automotive_app_desc.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\xml\\automotive_app_desc.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\layout-land_tabs_fragment.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout-land\\tabs_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_back_default.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\back_default.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable-xhdpi_voip_conference_mosaic.png.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable-xhdpi\\voip_conference_mosaic.png"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-merged_res-63:\\drawable_shape_form_field_background.xml.flat",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\drawable\\shape_form_field_background.xml"
+    }
+]

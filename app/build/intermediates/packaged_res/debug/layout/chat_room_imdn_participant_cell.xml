@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+                                          
+                                                               
+                 
+                       
+                                                                                
+           
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="center_vertical" android:tag="layout/chat_room_imdn_participant_cell_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="@dimen/contact_avatar_size"
+            android:layout_height="@dimen/contact_avatar_size"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+                                 
+            android:background="@drawable/generated_avatar_bg"
+            android:src="@drawable/voip_single_contact_avatar"
+            android:contentDescription="@null" android:tag="binding_1"/>
+
+        <ImageView
+            android:layout_width="@dimen/contact_presence_badge_size"
+            android:layout_height="@dimen/contact_presence_badge_size"
+            android:layout_alignBottom="@id/avatar"
+            android:layout_marginBottom="-3dp"
+            android:layout_marginStart="25dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/led_background"
+            android:padding="@dimen/contact_presence_badge_padding"
+            android:tag="binding_2"                  
+            android:visibility="gone"                                                                                           
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/time"
+            android:tag="binding_3"    
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/time"
+            android:layout_toRightOf="@id/avatar"
+            android:orientation="vertical">
+
+            <org.linphone.views.MarqueeTextView
+                style="@style/contact_name_list_cell_font"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:tag="binding_4"                                 />
+
+            <org.linphone.views.MarqueeTextView
+                style="@style/sip_uri_small_font"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:tag="binding_5"       />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+         

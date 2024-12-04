@@ -1,0 +1,7 @@
+#Tue Nov 26 10:48:30 MSK 2024
+base.0=F\:\\ArtPhone 1.0\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.1=F\:\\ArtPhone 1.0\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\14\\classes.dex
+path.0=0/classes.dex
+path.1=14/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

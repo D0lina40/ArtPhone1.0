@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+
+                                           
+
+                 
+                                 
+                                                                            
+
+                 
+                                    
+                                                                               
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="689dp"
+        android:background="?attr/voipBackgroundColor" android:tag="layout/voip_call_outgoing_fragment_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/icon_spinner_rotating"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/outgoing_call_title"
+            style="@style/call_header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/call_outgoing_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/progress" />
+
+        <Chronometer
+            android:id="@+id/outgoing_call_timer"
+            style="@style/call_header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/outgoing_call_title" />
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:tag="binding_1"                               
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/generated_avatar_bg"
+            android:contentDescription="@null"
+                                                                                                              
+            app:layout_constraintBottom_toTopOf="@id/conference_avatar"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_max="@dimen/voip_contact_avatar_max_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/outgoing_call_timer"
+            app:layout_constraintVertical_chainStyle="packed"
+            app:layout_constraintWidth_max="@dimen/voip_contact_avatar_max_size" />
+
+        <ImageView
+            android:id="@+id/conference_avatar"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/generated_avatar_bg"
+            android:contentDescription="@null"
+            android:src="@drawable/icon_multiple_contacts_avatar"
+            android:visibility="gone"                                                                                       
+            app:layout_constraintBottom_toTopOf="@id/callee_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_max="@dimen/voip_contact_avatar_max_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/avatar"
+            app:layout_constraintVertical_chainStyle="packed"
+            app:layout_constraintWidth_max="@dimen/voip_contact_avatar_max_size"  android:tag="binding_2"/>
+
+        <TextView
+            android:id="@+id/callee_name"
+            style="@style/call_header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Bilbo Baggins"                                                                                                                                                                  
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/conference_avatar"  android:tag="binding_3"/>
+
+        <include
+            android:id="@+id/buttons"
+            layout="@layout/voip_buttons_outgoing"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/voip_buttons_fragment_size"
+            android:layout_margin="10dp"
+                                                  
+                                                        
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_max="@dimen/voip_buttons_max_width" />
+
+        <org.linphone.activities.voip.views.RoundCornersTextureView
+            android:id="@+id/local_preview_video_surface"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:tag="binding_4"                               
+            app:alignTopRight="true"
+            app:displayMode="black_bars"
+            app:layout_constraintBottom_toTopOf="@id/buttons"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_max="200dp"
+            app:layout_constraintWidth_max="200dp" />
+
+        <ImageView
+            android:id="@+id/switch_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/content_description_switch_camera"
+            android:tag="binding_5"                                    
+            android:padding="10dp"
+            android:src="@drawable/icon_call_camera_switch"
+            android:visibility="gone"                                                                                                                       
+            app:layout_constraintEnd_toEndOf="@id/local_preview_video_surface"
+            app:layout_constraintTop_toTopOf="@id/local_preview_video_surface" />
+
+        <ViewStub
+            android:id="@+id/stub_numpad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout="@layout/voip_numpad"
+            android:visibility="gone"                                                                       
+            android:tag="binding_6"                     
+                                                                                                   />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+         

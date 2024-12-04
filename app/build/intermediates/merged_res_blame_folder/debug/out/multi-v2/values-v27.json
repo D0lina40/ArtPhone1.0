@@ -1,0 +1,47 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.linphone.app-mergeDebugResources-61:/values-v27/values-v27.xml",
+            "map": [
+                {
+                    "source": "F:\\ArtPhone 1.0\\app\\src\\main\\res\\values-v27\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "331"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    }
+                },
+                {
+                    "source": "F:\\.gradle\\caches\\8.9\\transforms\\a9e04539922607ce6166cbf2aaa769f1\\transformed\\core-splashscreen-1.0.1\\res\\values-v27\\values-v27.xml",
+                    "from": {
+                        "startLines": "2,3,4,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,136,229,405",
+                        "endLines": "2,3,6,9",
+                        "endColumns": "80,92,12,12",
+                        "endOffsets": "131,224,400,588"
+                    },
+                    "to": {
+                        "startLines": "8,9,10,13",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "228,309,402,578",
+                        "endLines": "8,9,12,15",
+                        "endColumns": "80,92,12,12",
+                        "endOffsets": "304,397,573,761"
+                    }
+                }
+            ]
+        }
+    ]
+}

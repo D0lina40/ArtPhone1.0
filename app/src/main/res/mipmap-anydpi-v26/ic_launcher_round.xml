@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/chat_bubble_file_background_border_color" />
+    <foreground android:drawable="@drawable/logoartphone" />
+    <monochrome android:drawable="@drawable/artphone_launcher_icon_foreground"/>
+</adaptive-icon>

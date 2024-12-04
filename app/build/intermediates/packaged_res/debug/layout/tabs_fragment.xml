@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                               
+
+    
+                                          
+                 
+                                       
+                                                      
+                 
+                                        
+                                                      
+                 
+                                      
+                                                      
+                 
+                                    
+                                                      
+                 
+                            
+                                                                           
+           
+
+    <androidx.constraintlayout.motion.widget.MotionLayout
+        android:id="@+id/motion_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_activity_tabs_fragment_size"
+        app:layoutDescription="@xml/motion_main_activity_tabs_selector" android:tag="layout/tabs_fragment_0" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            layout_constraintGuide_percent="0.25"                                   android:tag="binding_1"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineMiddle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            layout_constraintGuide_percent="0.5"                                     android:tag="binding_2"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            layout_constraintGuide_percent="0.75"                                    android:tag="binding_3"/>
+
+        <ImageView
+            android:id="@+id/history"
+            android:tag="binding_4"                  
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:padding="15dp"
+            android:contentDescription="@string/content_description_menu_history"
+            android:src="@drawable/footer_history"
+            android:background="@drawable/footer_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/guidelineLeft" />
+
+        <TextView
+            android:id="@+id/history_unread_count"
+            style="@style/unread_count_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:tag="binding_5"                                         
+                                                                                                                                                  
+                                                                                                               
+            app:layout_constraintRight_toLeftOf="@id/guidelineLeft"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RelativeLayout
+            android:id="@+id/contacts"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/footer_button"
+            android:tag="binding_6"                   
+            app:layout_constraintStart_toStartOf="@id/guidelineLeft"
+            app:layout_constraintEnd_toEndOf="@id/guidelineMiddle">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="15dp"
+                android:contentDescription="@string/content_description_menu_contacts"
+                android:src="@drawable/footer_contacts" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/dialer"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/footer_button"
+            android:tag="binding_7"                 
+            app:layout_constraintStart_toStartOf="@id/guidelineMiddle"
+            app:layout_constraintEnd_toEndOf="@id/guidelineRight">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="15dp"
+                android:contentDescription="@string/content_description_menu_dialer"
+                android:src="@drawable/footer_dialer" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/chat"
+            android:tag="binding_8"               
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/content_description_menu_chat"
+            android:padding="15dp"
+            android:src="@drawable/footer_chat"
+            android:background="@drawable/footer_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/guidelineRight" />
+
+        <TextView
+            android:id="@+id/chat_unread_count"
+            style="@style/unread_count_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:tag="binding_9"                                      
+                                                                                                                                                     
+                                                                                                                     
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <View
+            android:id="@+id/selector"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/tabs_fragment_selector_size"
+            android:background="@color/dark_green_color" />
+
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+
+         

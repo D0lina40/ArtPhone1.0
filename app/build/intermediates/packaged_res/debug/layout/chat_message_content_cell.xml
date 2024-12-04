@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+                                          
+                 
+                       
+                                                                                   
+                 
+                                    
+                                                          
+           
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" android:tag="layout/chat_message_content_cell_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <ViewStub
+            android:id="@+id/image_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout="@layout/chat_message_image_content_cell"
+            android:tag="binding_1"                                                                    
+                                                                                                           
+                              
+                                                        />
+
+        <ViewStub
+            android:id="@+id/video_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout="@layout/chat_message_video_content_cell"
+            android:tag="binding_2"                                                                    
+                                                                                                           
+                              
+                                                        />
+
+        <ViewStub
+            android:id="@+id/voice_recording_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout="@layout/chat_message_voice_record_content_cell"
+            android:tag="binding_3"                                                                             
+                              
+                                                        
+                                                                                                                    />
+
+        <ViewStub
+            android:id="@+id/conference_invitation_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout="@layout/chat_message_conference_invitation_content_cell"
+            android:tag="binding_4"                                                                                 
+                              
+                                                        
+                                                                                                                         />
+
+        <ViewStub
+            android:id="@+id/generic_file_content"
+            android:layout_width="@dimen/chat_message_bubble_file_size"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/chat_message_bubble_file_size"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="?attr/backgroundColor"
+            android:layout="@layout/chat_message_generic_file_content_cell"
+            android:tag="binding_5"                                                                      
+                              
+                                                        
+                                                                                                              />
+
+        <ViewStub
+            android:id="@+id/downloadable_file_content"
+            android:layout_width="@dimen/chat_message_bubble_file_size"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/chat_message_bubble_file_size"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="?attr/backgroundColor"
+            android:layout="@layout/chat_message_downloadable_file_content_cell"
+            android:tag="binding_6"                                             
+                              
+                                                        
+                                                                                     />
+
+        <!-- Keep two views below here instead of chat_message_downloadable_file_content_cell.xml
+            layout because of viewstub lifecycleowner databinding issue -->
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"                                                                 
+            android:max="100"
+            android:layout_centerInParent="true"
+            app:trackColor="?attr/backgroundColor"
+            android:progress="50"                                         
+            android:background="@drawable/background_round_secondary_color"  android:tag="binding_7"/>
+
+        <TextView
+            android:visibility="gone"                                                                 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            style="@style/file_transfer_progress_font"
+            android:text="50%"                                                  android:tag="binding_8"/>
+
+    </RelativeLayout>
+
+         

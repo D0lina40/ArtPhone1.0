@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+                                           
+                 
+                                       
+                                                       
+                 
+                                      
+                                                      
+                 
+                                 
+                                                                            
+                 
+                                      
+                                                                                 
+                 
+                                    
+                                                                               
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/voip_calls_list_fragment_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/voip_top_bar_size"
+            android:background="?attr/voipToolbarBackgroundColor"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginStart="20dp"
+                android:text="@string/call_action_calls_list"
+                style="@style/calls_list_header_font"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <ImageView
+                android:tag="binding_1"                 
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:src="@drawable/icon_cancel"
+                android:contentDescription="@string/cancel"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="?attr/voipBackgroundBWColor"
+            app:layout_constraintTop_toBottomOf="@id/top_bar"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:tag="binding_2"                  
+                                                       />
+
+        </androidx.core.widget.NestedScrollView>
+
+        <LinearLayout
+            android:id="@+id/bottom_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <ImageView
+                android:tag="binding_3"                  
+                android:layout_width="@dimen/voip_floating_button_size"
+                android:layout_height="@dimen/voip_floating_button_size"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:background="@drawable/button_round_background"
+                android:src="@drawable/icon_call_add"
+                android:contentDescription="@string/cancel"/>
+
+            <ImageView
+                android:tag="binding_4"                                              
+                                                                                                                  
+                android:visibility="gone"                                                                            
+                android:layout_width="@dimen/voip_floating_button_size"
+                android:layout_height="@dimen/voip_floating_button_size"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_round_background"
+                android:src="@drawable/icon_merge_calls_local_conference"
+                android:contentDescription="@string/cancel"/>
+
+            <ImageView
+                android:tag="binding_5"                                             
+                                                                         
+                                                                                                       
+                android:layout_width="@dimen/voip_floating_button_size"
+                android:layout_height="@dimen/voip_floating_button_size"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_round_background"
+                android:src="@drawable/icon_merge_calls_local_conference"
+                android:contentDescription="@string/cancel"/>
+
+        </LinearLayout>
+
+        <org.linphone.activities.voip.views.RoundCornersTextureView
+            android:id="@+id/local_preview_video_surface"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:tag="binding_6"                               
+            app:alignTopRight="true"
+            app:displayMode="black_bars"
+            app:layout_constraintBottom_toTopOf="@id/bottom_buttons"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_max="200dp"
+            app:layout_constraintWidth_max="200dp" />
+
+        <ImageView
+            android:id="@+id/switch_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/content_description_switch_camera"
+            android:tag="binding_7"                                    
+            android:padding="10dp"
+            android:src="@drawable/icon_call_camera_switch"
+            android:visibility="gone"                                                                                                                       
+            app:layout_constraintEnd_toEndOf="@id/local_preview_video_surface"
+            app:layout_constraintTop_toTopOf="@id/local_preview_video_surface" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+         

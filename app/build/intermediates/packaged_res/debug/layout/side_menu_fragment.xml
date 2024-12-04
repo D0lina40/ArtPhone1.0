@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+                                          
+                                                               
+                 
+                                           
+                                                      
+                 
+                                         
+                                                      
+                 
+                                        
+                                                      
+                 
+                                          
+                                                      
+                 
+                                     
+                                                      
+                 
+                                           
+                                                      
+                 
+                                    
+                                                      
+                 
+                            
+                                                                                        
+           
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:background="?attr/backgroundColor" android:tag="layout/side_menu_fragment_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <RelativeLayout
+            android:id="@+id/main_account"
+            android:tag="binding_1"                                                                                                                           
+                                                              
+                                                                                     
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="?attr/lightToolbarBackgroundColor">
+
+            <ImageView
+                android:id="@+id/avatar"
+                android:tag="binding_2"                        
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/generated_avatar_bg"
+                android:contentDescription="@string/content_description_change_own_picture"
+                                                             
+                android:src="@drawable/icon_single_contact_avatar"
+                                                                                                 />
+
+            <ImageView
+                android:id="@+id/avatar_border"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@null"
+                android:src="@drawable/avatar_border"
+                android:tag="binding_3"                                                          />
+
+            <ImageView
+                android:layout_width="@dimen/contact_presence_badge_size"
+                android:layout_height="@dimen/contact_presence_badge_size"
+                android:layout_alignBottom="@id/avatar"
+                android:layout_marginStart="45dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/led_background"
+                android:padding="@dimen/contact_presence_badge_padding"
+                android:tag="binding_4"                       
+                android:visibility="gone"                                                                                                                                  
+                tools:ignore="ContentDescription" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/avatar_border"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:visibility="gone"                                                                     
+                    android:text="@string/no_account_configured"
+                    android:textColor="?attr/lightToolbarTextColor"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"  android:tag="binding_5"/>
+
+                <TextView
+                    android:tag="binding_6"                                                         
+                                                                                                                                                                                          
+                    android:textColor="?attr/lightToolbarTextColor"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:tag="binding_7"                                                           
+                                                                                                                                                                                                  
+                    style="@style/sip_uri_small_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:background="@drawable/led_background"
+                android:src="@drawable/led_not_registered"                                                           
+                android:tag="binding_8"                                                                 
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="@dimen/contact_presence_badge_padding" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="?attr/dividerColor" />
+
+        </RelativeLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/main_account"
+            android:layout_above="@id/side_menu_quit">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:tag="binding_9"                                                  
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                                                       
+                                                                  />
+
+                <LinearLayout
+                    android:tag="binding_10"                   
+                                                                                              
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp">
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:padding="10dp"
+                        android:contentDescription="@string/assistant"
+                        android:src="@drawable/menu_assistant" />
+
+                    <TextView
+                        android:text="@string/assistant"
+                        style="@style/standard_text_font"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="16dp" />
+
+                </LinearLayout>
+
+                <View
+                    android:tag="binding_11"                                                  
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?dividerColor" />
+
+                <LinearLayout
+                    android:tag="binding_12"                  
+                                                                                             
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp">
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:padding="10dp"
+                        android:contentDescription="@string/settings"
+                        android:src="@drawable/menu_options" />
+
+                    <TextView
+                        android:text="@string/settings"
+                        style="@style/standard_text_font"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="16dp" />
+
+                </LinearLayout>
+
+                <View
+                    android:tag="binding_13"                                                 
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?dividerColor" />
+
+                <LinearLayout
+                    android:tag="binding_14"                    
+                                                                                               
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp">
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:padding="10dp"
+                        android:contentDescription="@string/recordings"
+                        android:src="@drawable/menu_recordings" />
+
+                    <TextView
+                        android:text="@string/recordings"
+                        style="@style/standard_text_font"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="16dp" />
+
+                </LinearLayout>
+
+                <View
+                    android:tag="binding_15"                                                   
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?dividerColor" />
+
+                <LinearLayout
+                    android:tag="binding_16"                     
+                                                                                                         
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp">
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:padding="7dp"
+                        android:contentDescription="@string/conference_scheduled"
+                        android:src="@drawable/icon_meeting_schedule" />
+
+                    <TextView
+                        android:text="@string/conference_scheduled"
+                        style="@style/standard_text_font"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="16dp" />
+
+                </LinearLayout>
+
+                <View
+                    android:tag="binding_17"                                                             
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?dividerColor" />
+
+                <LinearLayout
+                    android:tag="binding_18"               
+                                                                                          
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp">
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:padding="10dp"
+                        android:contentDescription="@string/about"
+                        android:src="@drawable/menu_about" />
+
+                    <TextView
+                        android:text="@string/about"
+                        style="@style/standard_text_font"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="16dp" />
+
+                </LinearLayout>
+
+                <View
+                    android:tag="binding_19"                                              
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?dividerColor" />
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <LinearLayout
+            android:id="@+id/side_menu_quit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="#4CAF50"
+            android:gravity="center_vertical"
+            android:tag="binding_20"              
+            android:orientation="horizontal"
+                                                                                 >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/quit"
+                android:padding="5dp"
+                android:src="@drawable/quit_default" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quit"
+                android:textColor="?attr/accentTextColor"
+                android:textSize="21sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+         

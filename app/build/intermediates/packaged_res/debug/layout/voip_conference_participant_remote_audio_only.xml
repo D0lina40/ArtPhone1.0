@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+
+                                           
+
+                 
+                       
+                                                                                       
+           
+
+    <!-- Width MUST BE 0dp, otherwise column width will be broken when mute mic icon will be show! -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="@dimen/voip_conference_audio_only_participant_cell_height"
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill_horizontal" android:tag="layout/voip_conference_participant_remote_audio_only_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_audio_only_remote_background"                                                                                                                
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"  android:tag="binding_1"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@null"
+            android:src="@drawable/shape_conference_audio_only_border"
+            android:visibility="gone"                                                       
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"  android:tag="binding_2"/>
+
+        <ImageView
+            android:id="@+id/participant_avatar"
+            android:layout_width="@dimen/voip_conference_audio_only_participant_avatar_size"
+            android:layout_height="@dimen/voip_conference_audio_only_participant_avatar_size"
+            android:layout_marginStart="10dp"
+            android:contentDescription="@null"
+            android:background="@drawable/generated_avatar_bg"
+            android:tag="binding_3"                                                                 
+                                     
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/paused_avatar"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintDimensionRatio="1:1" />
+
+        <ImageView
+            android:id="@+id/paused_avatar"
+            android:layout_width="@dimen/voip_conference_audio_only_participant_avatar_size"
+            android:layout_height="@dimen/voip_conference_audio_only_participant_avatar_size"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/shape_button_background"
+            android:contentDescription="@string/content_description_participant_is_paused"
+            android:src="@drawable/icon_pause"
+            android:visibility="gone"                                                                             
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/participant_name"
+            app:layout_constraintStart_toEndOf="@id/participant_avatar"
+            app:layout_constraintTop_toTopOf="parent"  android:tag="binding_4"/>
+
+        <TextView
+            android:id="@+id/participant_name"
+            style="@style/call_remote_name_small_font"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:text="Merry Brandybuck"                                                                                                                                                   
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/endBarrier"
+            app:layout_constraintStart_toEndOf="@id/paused_avatar"
+            app:layout_constraintTop_toTopOf="parent"  android:tag="binding_5"/>
+
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@+id/endBarrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="left"
+            app:constraint_referenced_ids="joining, participant_mic_muted" />
+
+        <ProgressBar
+            android:id="@+id/joining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/icon_spinner_rotating"
+            android:visibility="gone"                                                      
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/participant_name"
+            app:layout_constraintTop_toTopOf="parent"  android:tag="binding_6"/>
+
+        <ImageView
+            android:id="@+id/participant_mic_muted"
+            android:layout_width="@dimen/voip_conference_participant_mic_muted_icon_size_grid"
+            android:layout_height="@dimen/voip_conference_participant_mic_muted_icon_size_grid"
+            android:layout_marginEnd="@dimen/mute_mic_grid_margin"
+            android:background="@drawable/shape_toggle_pressed_background"
+            android:contentDescription="@string/content_description_conference_participant_mic_muted"
+            android:padding="2dp"
+            android:src="@drawable/icon_mic_muted"
+            android:visibility="gone"                                                    
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/participant_name"
+            app:layout_constraintTop_toTopOf="parent"  android:tag="binding_7"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+         

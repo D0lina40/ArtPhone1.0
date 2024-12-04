@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                  
+
+    
+                                          
+                 
+                                                 
+                                                      
+                 
+                                                 
+                                                      
+                 
+                                    
+                                                      
+                 
+                            
+                                                                                            
+           
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/chat_room_creation_fragment_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/tools">
+
+        <LinearLayout
+            android:id="@+id/top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/main_activity_top_bar_size"
+            android:background="?attr/lightToolbarBackgroundColor"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/back"
+                android:contentDescription="@string/content_description_go_back"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:background="?attr/button_background_drawable"
+                android:padding="18dp"
+                android:src="@drawable/back" />
+
+            <LinearLayout
+                android:tag="binding_1"                                                                                                        
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:tag="binding_2"                                     
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/content_description_e2e_encryption_disabled"
+                    android:src="@drawable/security_toggle_icon_grey"/>
+
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:tag="binding_3"                    
+                    android:switchMinWidth="50dp"
+                    android:textColorHint="#4CAF50"
+                    android:textColorLink="#4CAF50"
+                    android:textOff=""
+                    android:textOn=""
+                    app:useMaterialThemeColors="false" />
+
+                <ImageView
+                    android:tag="binding_4"                                    
+                    android:contentDescription="@string/content_description_e2e_encryption_enabled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/security_toggle_icon_green" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:tag="binding_5"                                                     
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:tag="binding_6"                            
+                                                                      
+                    android:contentDescription="@string/content_description_show_all_contacts"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?attr/button_background_drawable"
+                    android:padding="15dp"
+                    android:src="@drawable/contacts_all" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#4CAF50"
+                    android:tag="binding_7"                                                          />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:tag="binding_8"                                                     
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?attr/button_background_drawable"
+                    android:contentDescription="@string/content_description_show_sip_contacts"
+                    android:tag="binding_9"                            
+                    android:gravity="center"
+                                                                       
+                    android:padding="15dp"
+                    android:src="@drawable/contacts_sip_artphone" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#4CAF50"
+                    android:tag="binding_10"                                                         />
+            </RelativeLayout>
+
+            <ImageView
+                android:tag="binding_11"              
+                                                                           
+                                                                                            
+                android:contentDescription="@string/content_description_continue_chat_room_creation"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:background="?attr/button_background_drawable"
+                android:padding="18dp"
+                android:src="@drawable/valid" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/searchBar"
+            android:tag="binding_12"           
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="textPersonName|textNoSuggestions"
+            android:layout_below="@id/top_bar"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/search"
+            android:drawablePadding="10dp"
+            android:background="@color/transparent_color"
+            android:backgroundTint="@color/transparent_color"
+            android:hint="@string/contact_filter_hint"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/searchBar"
+            android:layout_alignRight="@id/searchBar"
+            android:layout_alignBottom="@id/searchBar"
+            android:tag="binding_13"                          
+            android:contentDescription="@string/content_description_clear_field"
+            android:src="@drawable/field_clean" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/searchBar"
+            android:background="?attr/dividerColor" />
+
+        <HorizontalScrollView
+            android:tag="binding_14"                                                    
+            android:id="@+id/layoutContactsSelected"
+            android:layout_below="@id/searchBar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="?attr/lightToolbarBackgroundColor"
+            android:fadeScrollbars="false"
+            android:lines="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:lines="1"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:scrollIndicators="bottom"
+                android:tag="binding_15"                    
+                                         
+                                                              />
+
+        </HorizontalScrollView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/contactsList"
+            android:layout_below="@id/layoutContactsSelected"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            style="@style/empty_list_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/no_sip_contact"
+            android:tag="binding_16"                                                                                                 />
+
+        <TextView
+            style="@style/empty_list_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/no_contact"
+            android:tag="binding_17"                                                                                                  />
+
+        <include
+            layout="@layout/wait_layout"
+                                                                                                />
+
+    </RelativeLayout>
+
+         

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    
+                                          
+                 
+                       
+                                                                                     
+           
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:gravity="center" android:tag="layout/voip_conference_incoming_participant_cell_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <org.linphone.views.MarqueeTextView
+            style="@style/call_header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="Bilbo Baggins"                                                      android:tag="binding_1"/>
+
+        <org.linphone.views.MarqueeTextView
+            style="@style/sip_uri_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:text="sip:bilbo.baggins@sip.linphone.org"                            android:tag="binding_2"/>
+
+
+    </LinearLayout>
+
+         

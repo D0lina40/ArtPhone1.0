@@ -1,0 +1,658 @@
+[
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\numpad.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\numpad.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\assistant_qr_code_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_qr_code_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_room_master_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_master_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\about_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\about_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\conference_scheduling_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\conference_scheduling_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_conference_participant_remote_grid.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_participant_remote_grid.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_room_group_info_participant_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_group_info_participant_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\file_viewer_top_bar_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\file_viewer_top_bar_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\contact_list_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\contact_list_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\assistant_activity.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_activity.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_room_imdn_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_imdn_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\side_menu_account_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\side_menu_account_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\contact_selected_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\contact_selected_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_message_reactions_list_dialog.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_reactions_list_dialog.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_conference_participant_broadcast_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_participant_broadcast_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\contact_detail_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\contact_detail_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\assistant_email_account_validation_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_email_account_validation_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_unread_messages_list_header.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_unread_messages_list_header.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\settings_widget_switch_and_text.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_widget_switch_and_text.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_call_stats_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_call_stats_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_calls_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_calls_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_single_call_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_single_call_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_chat_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_chat_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\settings_widget_switch.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_widget_switch.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_conference_participants_add_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_participants_add_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_remote_recording.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_remote_recording.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\conference_schedule_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\conference_schedule_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\file_image_viewer_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\file_image_viewer_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_conference_layout_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_layout_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\file_video_viewer_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\file_video_viewer_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_room_sending.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_sending.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_call_incoming_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_call_incoming_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\assistant_generic_account_warning_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_generic_account_warning_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\generic_list_header.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\generic_list_header.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\activity_login1.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\activity_login1.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\history_detail_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\history_detail_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_call_stat_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_call_stat_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\history_list_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\history_list_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\history_conf_detail_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\history_conf_detail_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_status_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_status_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_event_list_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_event_list_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\file_config_viewer_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\file_config_viewer_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\wait_layout.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\wait_layout.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_conference_active_speaker.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_active_speaker.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_conference_incoming_participant_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_incoming_participant_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\settings_widget_text.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_widget_text.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_message_content_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_content_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\assistant_phone_account_creation_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_phone_account_creation_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\conference_schedule_list_header.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\conference_schedule_list_header.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_room_devices_child_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_devices_child_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\assistant_generic_account_login_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_generic_account_login_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\main_activity_content.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\main_activity_content.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\settings_ldap_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_ldap_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_room_ephemeral_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_ephemeral_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\settings_account_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_account_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_calls_list_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_calls_list_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_call_outgoing_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_call_outgoing_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_message_image_content_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_image_content_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\assistant_country_picker_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_country_picker_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_message_video_content_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_video_content_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\settings_chat_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_chat_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\file_pdf_viewer_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\file_pdf_viewer_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\tabs_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\tabs_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\settings_contacts_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_contacts_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\settings_video_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_video_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\assistant_account_login_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_account_login_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_message_list_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_list_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_room_menu.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_menu.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_room_detail_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_detail_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_numpad.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_numpad.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_conference_participant_remote_active_speaker_miniature.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_participant_remote_active_speaker_miniature.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\recordings_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\recordings_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_message_generic_file_content_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_generic_file_content_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\assistant_email_account_creation_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_email_account_creation_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\video_play_button.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\video_play_button.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\conference_scheduling_participants_list_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\conference_scheduling_participants_list_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_conference_creation_pending_wait_layout.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_creation_pending_wait_layout.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\settings_conferences_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_conferences_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\assistant_echo_canceller_calibration_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_echo_canceller_calibration_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_message_reaction.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_reaction.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\history_master_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\history_master_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_message_reply_bubble.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_reply_bubble.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_buttons_extra.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_buttons_extra.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_conference_participant_remote_audio_only.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_participant_remote_audio_only.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_message_reply_content_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_reply_content_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\conference_scheduling_participant_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\conference_scheduling_participant_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\side_menu_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\side_menu_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\settings_network_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_network_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_buttons_outgoing.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_buttons_outgoing.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\file_pdf_viewer_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\file_pdf_viewer_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_message_long_press_menu.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_long_press_menu.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_message_attachment_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_attachment_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\settings_tunnel_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_tunnel_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\assistant_no_push_warning_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_no_push_warning_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\assistant_phone_account_linking_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_phone_account_linking_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_message_reply.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_reply.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_room_imdn_participant_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_imdn_participant_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\history_detail_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\history_detail_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\contact_master_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\contact_master_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\file_text_viewer_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\file_text_viewer_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\contact_sync_account_picker_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\contact_sync_account_picker_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\call_incoming_notification_heads_up.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\call_incoming_notification_heads_up.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_room_group_info_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_group_info_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_conference_call_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_call_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\conferences_scheduled_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\conferences_scheduled_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_buttons.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_buttons.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\assistant_phone_account_validation_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_phone_account_validation_fragment.xml"
+    },
+    {
+        "merged": "org.linphone.app-mergeDebugResources-62:/layout/settings_fragment.xml",
+        "source": "org.linphone.app-main-65:/layout/settings_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\conference_scheduling_summary_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\conference_scheduling_summary_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_buttons_incoming.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_buttons_incoming.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_message_conference_invitation_content_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_conference_invitation_content_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\settings_account_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_account_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_message_downloadable_file_content_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_downloadable_file_content_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_conference_participant_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_participant_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\settings_widget_list.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_widget_list.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_message_reply_preview_content_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_reply_preview_content_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\contact_sync_account_picker_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\contact_sync_account_picker_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\settings_audio_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_audio_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\empty_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\empty_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\imdn_list_header.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\imdn_list_header.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\settings_ldap_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_ldap_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_buttons_audio_routes.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_buttons_audio_routes.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_room_creation_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_creation_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_conference_audio_only.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_audio_only.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_room_list_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_list_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_call_stats.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_call_stats.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\activity_login.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_conference_paused.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_paused.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_call_paused.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_call_paused.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\settings_widget_basic.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_widget_basic.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\contact_number_address_editor_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\contact_number_address_editor_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\contact_selection_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\contact_selection_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_call_context_menu.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_call_context_menu.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\recording_list_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\recording_list_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\assistant_country_picker_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_country_picker_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_room_devices_group_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_devices_group_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\call_overlay.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\call_overlay.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_conference_participants_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_participants_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\status_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\status_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\assistant_welcome_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_welcome_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_activity.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_activity.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\dialog.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\dialog.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_message_voice_record_content_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_voice_record_content_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\file_audio_viewer_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\file_audio_viewer_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_conference_grid.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_conference_grid.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_room_devices_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_devices_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\list_edit_top_bar_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\list_edit_top_bar_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_message_reactions_list_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_reactions_list_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\main_activity.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\main_activity.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\contact_detail_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\contact_detail_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\contact_editor_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\contact_editor_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_room_ephemeral_duration_cell.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_room_ephemeral_duration_cell.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\assistant_top_bar_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_top_bar_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_call_paused_by_remote.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_call_paused_by_remote.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\assistant_remote_provisioning_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\assistant_remote_provisioning_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\settings_advanced_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_advanced_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\settings_call_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_call_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_bubble_activity.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_bubble_activity.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_dialog_info.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_dialog_info.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\voip_dialog.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\voip_dialog.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\chat_message_voice_recording.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\chat_message_voice_recording.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\dialer_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\dialer_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\settings_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\settings_fragment.xml"
+    },
+    {
+        "merged": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-mergeDebugResources-62:\\layout\\conference_waiting_room_fragment.xml",
+        "source": "F:\\.gradle\\daemon\\8.9\\org.linphone.app-main-65:\\layout\\conference_waiting_room_fragment.xml"
+    }
+]

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+                                          
+                                               
+                 
+                        
+                            
+                 
+                           
+                            
+                 
+                               
+                            
+                 
+                            
+                             
+                 
+                          
+                             
+                 
+                           
+                                                                           
+           
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:tag="layout/settings_widget_text_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <ImageView
+            android:id="@+id/settings_commit_input"
+            android:tag="binding_1"                                       
+            android:visibility="invisible"
+            android:contentDescription="@string/content_description_confirm_contact_edit"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="@dimen/settings_margin"
+            android:src="@drawable/valid"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/settings_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/settings_commit_input"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="@dimen/settings_margin"
+            android:layout_marginRight="@dimen/settings_margin"
+            android:tag="binding_2"             
+                                   
+                                        
+                                                            >
+
+            <org.linphone.views.SettingTextInputEditText
+                android:id="@+id/settings_input"
+                android:tag="binding_3"                           
+                                                                                                           
+                                              
+                android:imeOptions="actionDone"
+                                                                                           
+                android:maxLines="1"
+                android:background="@color/transparent_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/settings_input_layout"
+            android:background="?attr/dividerColor" />
+
+    </RelativeLayout>
+
+         

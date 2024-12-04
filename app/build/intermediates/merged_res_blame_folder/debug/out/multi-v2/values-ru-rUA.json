@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.linphone.app-mergeDebugResources-61:/values-ru-rUA/values-ru-rUA.xml",
+            "map": [
+                {
+                    "source": "F:\\ArtPhone 1.0\\app\\src\\main\\res\\values-ru-rUA\\strings.xml",
+                    "from": {
+                        "startLines": "7,8,12,3,11,9,10,2,6,5,4",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "365,401,580,111,541,448,494,55,303,244,181",
+                        "endColumns": "35,46,53,69,38,45,46,55,61,58,62",
+                        "endOffsets": "396,443,629,176,575,489,536,106,360,298,239"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,91,138,192,262,301,347,394,450,512,571",
+                        "endColumns": "35,46,53,69,38,45,46,55,61,58,62",
+                        "endOffsets": "86,133,187,257,296,342,389,445,507,566,629"
+                    }
+                }
+            ]
+        }
+    ]
+}

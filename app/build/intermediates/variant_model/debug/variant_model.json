@@ -1,0 +1,10 @@
+ô
+Ý
+9
+linphone_file_providerorg.linphone.debug.fileprovider
+
+firebaseServiceEnabledfalse
+"
+appLabel@string/app_name_debug
+[
+linphone_address_mime_type=vnd.android.cursor.item/vnd.org.linphone.provider.sip_addressorg.linphone.debug

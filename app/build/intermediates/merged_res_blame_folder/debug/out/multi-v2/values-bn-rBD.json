@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.linphone.app-mergeDebugResources-61:/values-bn-rBD/values-bn-rBD.xml",
+            "map": [
+                {
+                    "source": "F:\\ArtPhone 1.0\\app\\src\\main\\res\\values-bn-rBD\\strings.xml",
+                    "from": {
+                        "startLines": "12,9,8,13,5,11,6,10,14,7",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "545,358,318,635,109,454,204,400,681,263",
+                        "endColumns": "89,41,39,45,94,90,58,53,55,54",
+                        "endOffsets": "630,395,353,676,199,540,258,449,732,313"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,145,187,227,273,367,458,516,570,626",
+                        "endColumns": "89,41,39,45,93,90,57,53,55,54",
+                        "endOffsets": "140,182,222,268,362,453,511,565,621,676"
+                    }
+                }
+            ]
+        }
+    ]
+}

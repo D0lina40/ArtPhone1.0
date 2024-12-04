@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+                                           
+                                              
+                                                                   
+                                                               
+                 
+                                           
+                                                           
+                 
+                                
+                                                       
+                 
+                                     
+                                                       
+                 
+                           
+                             
+                 
+                       
+                                                                            
+                 
+                                         
+                                                                                 
+           
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+                                           android:tag="layout/chat_message_list_cell_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <CheckBox
+            android:id="@+id/select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/background"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:tag="binding_1"                                                     
+                                                                                      
+            android:visibility="gone"                                                                                />
+
+        <!-- To align with security badge if visible -->
+        <View
+            android:id="@+id/rightMark"
+            android:layout_width="8dp"
+            android:layout_height="1dp"
+            android:layout_alignParentRight="true" />
+
+        <ImageView
+            android:id="@+id/imdn"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_alignBottom="@id/background"
+            android:tag="binding_2"                                                                          
+            android:contentDescription="@string/content_description_delivery_status"
+            android:src="@drawable/chat_delivered"                          
+                                                                                                                                 />
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="@dimen/contact_avatar_size"
+            android:layout_height="@dimen/contact_avatar_size"
+            android:contentDescription="@null"
+                                 
+            android:layout_below="@id/time"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/generated_avatar_bg"
+            android:src="@drawable/voip_single_contact_avatar"
+            android:gravity="center"
+            android:tag="binding_3"                                                                                                                                      />
+
+        <ImageView
+            android:layout_width="@dimen/contact_presence_badge_size"
+            android:layout_height="@dimen/contact_presence_badge_size"
+            android:layout_alignBottom="@id/avatar"
+            android:layout_marginStart="35dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/led_background"
+            android:padding="2dp"
+            android:tag="binding_4"                  
+            android:visibility="gone"                                                                                                                                                                                      
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:id="@+id/background"
+            android:background="@drawable/chat_bubble_outgoing_full"
+            backgroundImage="@drawable/chat_bubble_outgoing_full"                               
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time"
+            android:tag="binding_5"                                                                                                                                                                                                                              
+                                                                                                                                                                           
+            android:layout_marginBottom="1dp"
+                                                                                                                            
+            android:layout_toRightOf="@id/avatar"
+            android:descendantFocusability="blocksDescendants"
+                                              
+                                                             
+            android:orientation="vertical"
+            android:paddingBottom="5dp">
+
+            <TextView
+                style="@style/chat_message_reply_forward_indicator_font"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="3dp"
+                android:gravity="center_vertical"
+                android:text="@string/chat_message_forwarded"
+                android:visibility="gone"                                                                
+                app:drawableLeftCompat="@drawable/icon_forwarded_message"
+                tools:ignore="SmallSp"  android:tag="binding_6"/>
+
+            <TextView
+                style="@style/chat_message_reply_forward_indicator_font"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="3dp"
+                android:gravity="center_vertical"
+                android:text="@string/chat_message_replied"
+                android:visibility="gone"                                                              
+                app:drawableLeftCompat="@drawable/icon_replied_message"
+                tools:ignore="SmallSp"  android:tag="binding_7"/>
+
+            <include
+                layout="@layout/chat_message_reply_bubble"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                                                                                                    
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"                                                              
+                                                         
+                                             />
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:longClickable="true"
+                app:alignItems="center"
+                android:tag="binding_8"       
+                app:flexWrap="wrap"
+                                                                                                                       
+                                                                 
+                                                              />
+
+            <org.linphone.activities.main.chat.views.MultiLineWrapContentWidthTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="binding_9"                                                             
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:lineSpacingExtra="-1.7sp"
+                android:longClickable="true"
+                                                  
+                                                                 
+                android:text="Lorem Ipsum: dolor sit amet"                        
+                android:textColor="@color/dark_grey_color"
+                android:textSize="@dimen/chat_message_text_font_size"                                                                                                        
+                android:textStyle="normal"
+                                                                                        />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:drawablePadding="3dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical|right"
+                android:lineSpacingExtra="3.3sp"
+                android:text="00:00"                                     
+                android:textColor="@color/primary_color"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                android:visibility="gone"                                                                  
+                app:drawableRightCompat="@drawable/icon_ephemeral_message"  android:tag="binding_10"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:tag="binding_11"                           
+            android:visibility="gone"                                                                 
+            android:id="@+id/reactions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chat_bubble_outgoing_reactions"                                                                                                                            
+            android:padding="2dp"
+            android:layout_marginTop="-10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/background"
+                                                                                                                                   
+                                                                                                                                    
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+                                       
+                                                     />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="binding_12"                                                                                               
+                                                                                                                                    
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="7dp"
+            android:fontFamily="sans-serif"
+            android:lineSpacingExtra="0sp"
+            android:text="07/11 13:19 - John Doe"                                                                                                                  
+            android:textColor="@color/chat_bubble_text_color"
+            android:textSize="13sp"
+            android:textStyle="normal"
+                                                                             />
+
+        <ProgressBar
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_alignBottom="@id/background"
+            android:layout_toRightOf="@id/background"
+            android:indeterminateTint="?attr/accentColor"
+            android:tag="binding_13"                                               />
+
+    </RelativeLayout>
+
+         

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">929724111839-v5so1tcd65iil7dd7sde8jgii44h8luf.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">929724111839</string>
+    <string name="google_api_key" translatable="false">AIzaSyCKrwWhkbA7Iy3wpEI8_ZvKOMp5jf6vV6A</string>
+    <string name="google_app_id" translatable="false">1:929724111839:android:3cf90ee1d2f8fcb6</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCKrwWhkbA7Iy3wpEI8_ZvKOMp5jf6vV6A</string>
+    <string name="google_storage_bucket" translatable="false">linphone-android-8a563.appspot.com</string>
+    <string name="project_id" translatable="false">linphone-android-8a563</string>
+</resources>

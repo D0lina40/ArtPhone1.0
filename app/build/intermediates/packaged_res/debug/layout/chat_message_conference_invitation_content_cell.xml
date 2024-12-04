@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                               
+
+    
+                                          
+                 
+                       
+                                                                                   
+                 
+                                    
+                                                          
+                 
+                                     
+                             
+           
+
+    <LinearLayout
+                                                  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="250dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/shape_conference_invite_background"
+                                                  
+                                         android:tag="layout/chat_message_conference_invitation_content_cell_0" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/conference_invite_title_font"
+            android:text="@string/conference_invite_title"                                                                                                           
+            android:tag="binding_1"                                                                                  />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/conference_update_title_font"
+            android:text="@string/conference_update_title"
+            android:visibility="gone"                                                                 android:tag="binding_2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/conference_cancel_title_font"
+            android:text="@string/conference_cancel_title"
+            android:visibility="gone"                                                                   android:tag="binding_3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            style="@style/conference_invite_desc_font"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="Lorem ipsum dolor sit amet!"                                      android:tag="binding_4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:layout_marginBottom="2dp"
+            android:tag="binding_5"                                                      
+            style="@style/conference_invite_dat_time_font"
+            android:text="3 participants"                                              
+            app:drawableStartCompat="@drawable/icon_schedule_participants"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginBottom="2dp"
+            android:tag="binding_6"                                                                      
+            style="@style/conference_invite_dat_time_font"
+            android:text="@string/conference_broadcast_invite_you_are_speaker"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:layout_marginBottom="2dp"
+            style="@style/conference_invite_dat_time_font"
+            android:text="Mon. October 9th, 2021"                                  
+            app:drawableStartCompat="@drawable/icon_schedule_date"  android:tag="binding_7"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            style="@style/conference_invite_dat_time_font"
+            android:text="5:35 PM (2h)"                                                                                                    
+            app:drawableStartCompat="@drawable/icon_schedule_time"  android:tag="binding_8"/>
+
+        <TextView
+            android:tag="binding_9"                                                                    
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            style="@style/conference_invite_desc_title_font"
+            android:text="@string/conference_description_title"/>
+
+        <TextView
+            android:tag="binding_10"                                                                   
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/conference_invite_desc_font"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:text="Lorem ipsum dolor sit amet"                                         />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:layout_toStartOf="@id/join_conference"
+                android:contentDescription="@string/content_description_share_ics"
+                android:tag="binding_11"                  
+                android:src="@drawable/icon_share" />
+
+            <TextView
+                android:id="@+id/join_conference"
+                style="@style/conference_invite_join_font"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_green_background"
+                android:tag="binding_12"                                           
+                                                                       
+                android:paddingLeft="20dp"
+                android:paddingTop="8dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="8dp"
+                android:text="@string/conference_invite_join" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+         

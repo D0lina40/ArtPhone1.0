@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    
+                                          
+                 
+                       
+                                                                                      
+           
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" android:tag="layout/history_detail_cell_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:tag="binding_1"                    
+                                                                       
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+
+        <org.linphone.views.MarqueeTextView
+            android:tag="binding_2"                            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+         

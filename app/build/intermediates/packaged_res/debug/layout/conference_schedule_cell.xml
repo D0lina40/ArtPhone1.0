@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                              
+                                                        
+
+    
+                                           
+                 
+                                
+                                                       
+                 
+                                    
+                                                           
+                 
+                                           
+                                                       
+                 
+                                              
+                                                       
+                 
+                                              
+                                                       
+                 
+                                                
+                                                       
+                 
+                           
+                             
+                 
+                                         
+                                                                                 
+                 
+                       
+                                                                                          
+           
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+                                          
+                                                  
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:orientation="vertical" android:tag="layout/conference_schedule_cell_0" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/shape_round_gray_background"
+            backgroundImage="@drawable/shape_round_gray_background"                                  android:tag="binding_1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp">
+
+                <LinearLayout
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_alignParentStart="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="5dp"
+                        style="@style/conference_invite_desc_font"
+                        android:text="5:35 PM"                        
+                        app:drawableStartCompat="@drawable/icon_schedule_time"  android:tag="binding_2"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        style="@style/conference_invite_desc_font"
+                        android:tag="binding_3"                                             
+                        android:text="(2h)"                                         />
+
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/select"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:tag="binding_4"                                                     
+                                                                                              
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:visibility="gone"                                                                                />
+
+                <TextView
+                    style="@style/conference_invite_desc_font"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toStartOf="@id/select"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_toEndOf="@id/time"
+                    android:ellipsize="end"
+                    android:gravity="end"
+                    android:text="Organizer: Me"                                                                             android:tag="binding_5"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                style="@style/conference_cancel_title_font"
+                android:visibility="gone"                                                                  
+                android:text="@string/conference_scheduled_cancelled_by_organizer"                                                                                                                               android:tag="binding_6"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/meeting_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    style="@style/conference_invite_subject_font"
+                    android:text="@string/conference_meeting_title"                                                                                                        android:tag="binding_7"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    style="@style/conference_invite_subject_font"
+                    android:maxLines="2"
+                    android:text="Lorem Ipsum"                            android:tag="binding_8"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:tag="binding_9"                                         
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dp"
+                    android:layout_marginEnd="10dp"
+                    style="@style/conference_invite_desc_font"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:text="Daryl Martin"                                     
+                    android:tag="binding_10"                                                          
+                    app:drawableStartCompat="@drawable/icon_schedule_participants" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:tag="binding_11"                                     
+                    android:contentDescription="@string/content_description_toggle_conference_info_details"
+                    android:src="@drawable/button_conference_info"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:visibility="gone"                                                     
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" android:tag="binding_12">
+
+                <ImageView
+                    android:id="@+id/selected_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:tag="binding_13"  
+                                                                                 
+                    android:contentDescription="@string/content_description_toggle_conference_info_details"
+                    android:src="@drawable/button_conference_info" />
+
+                <TextView
+                    style="@style/conference_invite_desc_font"
+                    android:id="@+id/speakers_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:text="@string/conference_invite_speakers_list_title"
+                    android:textSize="16sp"
+                    android:textColor="@color/voip_dark_gray"
+                    android:drawableStart="@drawable/icon_schedule_participants"
+                    android:drawablePadding="5dp"
+                    android:tag="binding_14"                                                                          
+                    android:src="@drawable/icon_schedule_participants"/>
+
+                <TextView
+                    android:id="@+id/speakers_list"
+                    style="@style/conference_invite_desc_font"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toStartOf="@id/selected_info"
+                    android:layout_below="@id/speakers_title"
+                    android:background="@color/transparent_color"
+                    android:drawablePadding="5dp"
+                    android:tag="binding_15"                                                                          
+                    android:text="Daryl Martin\nMartin Pecheur"                                    
+                    tools:ignore="LabelFor" />
+
+                <TextView
+                    style="@style/conference_invite_desc_font"
+                    android:id="@+id/participants_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/speakers_list"
+                    android:layout_alignParentStart="true"
+                    android:text="@string/conference_invite_participants_list_title"
+                    android:textSize="16sp"
+                    android:textColor="@color/voip_dark_gray"
+                    android:drawableStart="@drawable/icon_schedule_participants"
+                    android:drawablePadding="5dp"
+                    android:tag="binding_16"                                                     
+                    android:src="@drawable/icon_schedule_participants"/>
+
+                <TextView
+                    android:id="@+id/participants_list"
+                    style="@style/conference_invite_desc_font"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toStartOf="@id/selected_info"
+                    android:layout_below="@id/participants_title"
+                    android:background="@color/transparent_color"
+                    android:drawablePadding="5dp"
+                    android:tag="binding_17"                                                     
+                    android:text="Daryl Martin\nMartin Pecheur"                                        
+                    tools:ignore="LabelFor" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:visibility="gone"                                                     
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" android:tag="binding_18">
+
+                <TextView
+                    android:tag="binding_19"                                                         
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    style="@style/conference_scheduling_font_alt"
+                    android:text="@string/conference_description_title"/>
+
+                <TextView
+                    android:tag="binding_20"                                                         
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    style="@style/conference_invite_desc_font"
+                    android:text="Lorem ipsum dolor sit amet"                               />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/conference_scheduling_font_alt"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:tag="binding_21"                                                     
+                    android:text="@string/conference_schedule_address_title"                                                                                                                               />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="horizontal"
+                    android:tag="binding_22"                                                     >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        style="@style/conference_scheduling_address_font"
+                        android:background="@color/white_color"
+                        android:tag="binding_23"      />
+
+                    <ImageView
+                        android:tag="binding_24"                     
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_background"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/icon_copy"
+                        android:contentDescription="@string/content_description_copy_conference_address"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="end"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:tag="binding_25"                        
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_green_background"
+                                                                                                     
+                        android:paddingLeft="20dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="8dp"
+                        android:layout_gravity="center_vertical|end"
+                        style="@style/conference_invite_join_font"
+                        android:text="@string/conference_invite_join"/>
+
+                    <ImageView
+                        android:tag="binding_26"                        
+                        android:visibility="gone"                                                                                           
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_background"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/icon_edit"
+                        android:contentDescription="@string/content_description_edit_conference"/>
+
+                    <ImageView
+                        android:tag="binding_27"                          
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_background"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/icon_delete"
+                        android:contentDescription="@string/content_description_delete_conference"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+         

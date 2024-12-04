@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+                 
+                              
+                                                                             
+           
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/numpad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="?attr/backgroundColor"
+        app:flexWrap="wrap"
+        app:justifyContent="space_around"
+        app:alignItems="center"
+        app:alignContent="space_around" android:tag="layout/numpad_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <ImageView
+            style="@style/numpad_digit"
+            android:src="@drawable/numpad_one"
+            android:contentDescription="@string/content_description_numpad_1"
+            android:tag="binding_1"                                
+                                                                             />
+
+        <ImageView
+            style="@style/numpad_digit"
+            android:contentDescription="@string/content_description_numpad_2"
+            android:src="@drawable/numpad_two"
+            android:tag="binding_2"                                 />
+
+        <ImageView
+            style="@style/numpad_digit"
+            android:contentDescription="@string/content_description_numpad_3"
+            android:src="@drawable/numpad_three"
+            android:tag="binding_3"                                 />
+
+        <ImageView
+            style="@style/numpad_digit"
+            app:layout_wrapBefore="true"
+            android:src="@drawable/numpad_four"
+            android:contentDescription="@string/content_description_numpad_4"
+            android:tag="binding_4"                                 />
+
+        <ImageView
+            style="@style/numpad_digit"
+            android:src="@drawable/numpad_five"
+            android:contentDescription="@string/content_description_numpad_5"
+            android:tag="binding_5"                                 />
+
+        <ImageView
+            style="@style/numpad_digit"
+            android:src="@drawable/numpad_six"
+            android:contentDescription="@string/content_description_numpad_6"
+            android:tag="binding_6"                                 />
+
+        <ImageView
+            style="@style/numpad_digit"
+            app:layout_wrapBefore="true"
+            android:src="@drawable/numpad_seven"
+            android:contentDescription="@string/content_description_numpad_7"
+            android:tag="binding_7"                                 />
+
+        <ImageView
+            style="@style/numpad_digit"
+            android:src="@drawable/numpad_eight"
+            android:contentDescription="@string/content_description_numpad_8"
+            android:tag="binding_8"                                 />
+
+        <ImageView
+            style="@style/numpad_digit"
+            android:src="@drawable/numpad_nine"
+            android:contentDescription="@string/content_description_numpad_9"
+            android:tag="binding_9"                                 />
+
+        <ImageView
+            style="@style/numpad_digit"
+            app:layout_wrapBefore="true"
+            android:src="@drawable/numpad_star_digit"
+            android:contentDescription="@string/content_description_numpad_star"
+            android:tag="binding_10"                                />
+
+        <ImageView
+            style="@style/numpad_digit"
+            android:src="@drawable/numpad_zero"
+            android:tag="binding_11"                               
+            android:contentDescription="@string/content_description_numpad_0"
+                                                                           />
+
+        <ImageView
+            style="@style/numpad_digit"
+            android:src="@drawable/numpad_sharp"
+            android:contentDescription="@string/content_description_numpad_sharp"
+            android:tag="binding_12"                                />
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+         

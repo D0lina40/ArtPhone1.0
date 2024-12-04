@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "org.linphone.app-mergeDebugResources-62:/layout-w936dp-v13/activity_login.xml",
+        "source": "org.linphone.app-main-65:/layout-w936dp/activity_login.xml"
+    }
+]
